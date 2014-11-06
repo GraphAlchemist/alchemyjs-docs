@@ -51,15 +51,20 @@ node.setProperties({
 ##### edge.getStyles
 <!--  -->
 
-`edge.getStyles(['property'])`<br>
+`edge.getStyles(['property', 'properties...'])`<br>
 
-To get the styles of a particular edge, you can call the getStyles() method.  If `property` is blank, it will return an object consisting of all the styles.  If a specific property is passed, it will return the current setting for that style.
+To get the styles of a particular edge, you can call the getStyles() method.  If `property` is blank, it will return an object consisting of all the current styles.  If arguments are passed to the function, an array will be returned that contains the current style setting for each property.
 
 ~~~ javascript
 // Get edge
 var some_edge = alchemy.getEdges(1, 2);
-// Check the edge radius
-some_edge.getStyles('radius')
+
+// Check the edge width
+some_edge.getStyles('width)
+
+// Check the edge width and color
+some_edge.getStyles('width', 'color')
+
 // See all styles for some_edge
 some_edge.getStyles()
 ~~~

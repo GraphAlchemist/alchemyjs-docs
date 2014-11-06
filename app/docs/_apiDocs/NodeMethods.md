@@ -92,17 +92,22 @@ some_node.setStyle(new_styles);
 ##### node.getStyles
 <!--  -->
 
-`node.getStyles(['property'])`<br>
+`node.getStyles(['property', 'properties...'])`<br>
 
-To get the styles of a particular node, you can call the getStyles() method.  If `property` is blank, it will return an object consisting of all the styles.  If a specific property is passed, it will return the current setting for that style.
+To get the styles of a particular node, you can call the getStyles() method.  If `property` is blank, it will return an object consisting of all the current styles.  If arguments are passed to the function, an array will be returned that contains the current style setting of each property.
 
 ~~~ javascript
 // Get node
 var some_node = alchemy.getNodes(1);
+
 // Check the node radius
-some_node.getStyles('radius')
+some_node.getStyles('radius');
+
+// Check the node radius as well as color
+some_node.getStyles('radius', 'color');
+
 // See all styles for some_node
-some_node.getStyles()
+some_node.getStyles();
 ~~~
 
 ##### node.toggleHidden
