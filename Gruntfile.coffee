@@ -12,7 +12,6 @@ module.exports = (grunt) ->
   require("time-grunt") grunt 
   # the package file from the alchemy directory
   pkg = grunt.file.readJSON('./package.json')
-  AlchemyPkg = grunt.file.readJSON('../package.json')
   appConfig =
     app: require("./bower.json").appPath or "app"
     dist: "dist"
@@ -40,7 +39,7 @@ module.exports = (grunt) ->
         options:
           replacements: [
             pattern: /#VERSION#/ig
-            replacement: AlchemyPkg.version
+            replacement: "0.4.0"
           ]
     
     # Watches files for changes and runs tasks based on the changed files
@@ -95,6 +94,7 @@ module.exports = (grunt) ->
     "gh-pages":
       options:
         base: "dist"
+        repo: "https://github.com/GraphAlchemist/Alchemy.git"
       src: ["**"]
     
     # The actual grunt server settings
@@ -511,7 +511,7 @@ module.exports = (grunt) ->
     grunt.task.run [
       "clean:server"
       "jekyll:dev"
-      "wiredep"
+      #"wiredep"
       "concurrent:server"
       "autoprefixer"
       "connect:livereload"
@@ -534,7 +534,7 @@ module.exports = (grunt) ->
   grunt.registerTask "build", [
     "clean:dist"
     "jekyll:dist"
-    "wiredep"
+    # "wiredep"
     "useminPrepare"
     "concurrent:dist"
     "autoprefixer"
