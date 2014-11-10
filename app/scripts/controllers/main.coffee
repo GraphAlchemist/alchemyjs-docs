@@ -61,7 +61,7 @@ angular.module('navigation', ['ui.bootstrap'])
             [
                 { name: 'Home', href: '/'},
                 { name: 'Examples', href: '/examples'},
-                # { name: 'Tutorial', tooltip:"Coming Soon!"} 
+                { name: 'Documents', href: '/docs'} 
             ] 
             $scope.active($location.path())
             $scope.hidden = false
@@ -147,3 +147,53 @@ angular.module('featCarousel', ['ui.bootstrap'])
             {image: "images/features/clusterHighlight_team.png", text: "Cluster nodes for easy identification of patterns"},
             {image: "images/features/filters&Stats_movies.png", text: "Network statistic API endpoints to use in the rest of your app"}
         ]
+
+angular.module('documentation',['ngRoute'])
+    .controller 'docsCtrl', ($scope, $location, $routeParams) ->
+        showDocs = (name) ->
+            _.forEach $scope.documents, (document) -> document.state = undefined
+            docs = $scope.documents[name]
+            docs.state = 'active'
+            $scope.current_documents = docs
+        $scope.init = ->
+            $scope.documents =
+                'Start':
+                    name: 'Start'
+                    src: 'views/html/app/views/docs/_documentation/start.html'
+                    desc: "begin to use grunt here"
+                'Configuration':
+                    name: 'Configuration'
+                    src: "views/html/app/views/docs/_documentation/Configuration.html"
+                    desc: "configure this!"
+                'GraphJSON':
+                    name: 'GraphJSON'
+                    src: 'views/html/app/views/docs/_documentation/GraphJSON.html',
+                    desc: "graph this!"
+                'GraphStyling':    
+                    name: 'GraphStyling'
+                    src: 'views/html/app/views/docs/_documentation/GraphStyling.html'
+                    desc: "styling"
+                'Examples':
+                    name: 'Examples'
+                    src: 'views/html/app/views/docs/_documentation/Examples.html'
+                    
+                'Contributing':
+                    name: 'Contributing'
+                    src: 'views/html/app/views/docs/_documentation/Contributing.html'
+                    desc: 'contribute'
+                'API':
+                    name: 'API'
+                    src: 'views/html/app/views/docs/_documentation/API.html'
+                    desc: 'API'    
+            $scope.orderedDocuments = ['Start', 'Configuration', 
+                                      'GraphJSON','GraphStyling',
+                                      'Examples','Contributing','API'
+                                  ]
+            if 'documentsName' of $routeParams
+                showDocs($routeParams.documentsName)
+
+            return
+
+        $scope.showDocs = (name) ->
+            showDocs(name)
+            return        

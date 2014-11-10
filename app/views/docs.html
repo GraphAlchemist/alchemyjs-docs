@@ -1,0 +1,14 @@
+<div id ="examples" class ="row" ng-app="alchemyDocuments" ng-controller="docsCtrl" ng-init="init()">
+	<div id="documents-list" class="list-group col-md-3">
+		<a class="list-group-item h1">Documentation</a>
+		<a ng-repeat="docs in orderedDocuments" class="list-group-item document-bar {{documents[docs].state}} docs" ng-click="showDocs(docs)">
+			{{ documents[docs].name }}
+		</a>
+	</div>
+    <h1>Why won't you show??????</h1>
+
+    
+
+	<div class="col-md-9 documents" id="{{current_documents.id}}" ng-model="documents" ng-include="current_documents.src" style= "height:450px; width: 100%;"></div>
+</div>
+
