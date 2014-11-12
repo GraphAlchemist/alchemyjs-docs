@@ -1,0 +1,81 @@
+#documents{
+	h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5{
+		font-weight: 300;
+	}
+	margin: 8% 5%;
+	padding: 5% 0 0 0;
+	// a.list-group-item.h1{
+	// 	color: black;
+	// 	&:hover{
+	// 		background-color: white;
+	// 	}
+	// }
+}
+
+#documents-list{
+	padding: 0 20px;
+	border-radius: 0;
+}
+
+.documents {
+	padding: 40px;
+	background-color: white;
+	border: 3px $blue solid;
+	border-radius: 5px;
+	#graph-container{
+		overflow: scroll;
+	}
+	.alchemy{
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+
+
+.documents-bar {
+	font-size: 16px;
+	padding: 20px;
+	cursor: pointer;
+	&.active{
+		border-radius: 0;
+		margin-left: 20px;
+		background-color: $blue !important;
+		border: none;
+		&:after{
+			content: "";
+			border: 10px $blue solid;
+			position: absolute;
+			top: 0;
+			right: -20px;
+			height: 100%;
+		}
+	}
+}
+
+#graph-container-full{
+	background-color: black;
+	padding:0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	.alchemy{
+		max-height: 100%;
+		width: 100%;
+		margin-top: 75px;
+	}
+}
+
+
+.example-code{
+	pre{
+		overflow: scroll;
+		max-height: 450px;
+		font-size: 18px;
+	}
+}
+.alchemy{
+	svg{
+		overflow: scroll;
+	}
+}
