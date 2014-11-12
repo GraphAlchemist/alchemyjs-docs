@@ -112,26 +112,20 @@
     </style>
   </head>
   <body>  
-    <hr>
-<p>position: 2</p>
-<h2 id="title-configuration">title: Configuration</h2>
-<p>{% capture configOverview %}</p>
-<h1 id="configuration-overview">Configuration: Overview</h1>
+    <h1 id="configuration-overview">Configuration: Overview</h1>
 <p>Alchemy.js is initialized using the <code>alchemy.begin(your_config)</code> where the <strong>your_config</strong> object includes any of the configurations here that you would like to override.</p>
 <p>The only configuration absolutely necessary is the <a href="#datasource">dataSource</a> configuration.  See <a href="#quick-start">Quick Start</a> or <a href="#examples">Examples</a> for more examples of how to initialize Alchemy.js.</p>
 <p>Additionally, configurations for any app are available at the alchemy.conf endpoint after the app has been initialized.   </p>
-<p>{% endcapture %}</p>
-<p>{{ configOverview | markdownify }}</p>
-<p>{% assign sorted_configDocs = (site.configDocs | sort: &#39;position&#39;) %}</p>
-<p>{% for item in sorted_configDocs %}</p>
-<pre><code>{% assign href = ({{item.title}} | replace: &#39; &#39;, &#39;-&#39;) %}</code></pre>
-<section class="config-doc" id="{{href}}">
+<div id ="documents" class ="row" ng-app="alchemyDocuments" ng-controller="docsCtrl" ng-init="init()">{{current_documents.name}}
 
-{{item.content | markdownify}}
+<div id ="documents" class ="row"  ng-controller="configdocsCtrl" ng-init="init()">{{current_documents.name}} 
+    <a ng-repeat="docs in orderedDocuments" class="list-group-item documents-bar {{documents[docs].state}} docs" ng-click="showDocs(docs)">
+            {{ documents[docs].name }}
+    </a>
+</div>
 
-</section>
 
-<pre><code>{% endfor %}</code></pre>
+<p></div></p>
 
   </body>
 </html>

@@ -155,6 +155,7 @@ angular.module('documentation',['ngRoute'])
             docs = $scope.documents[name]
             docs.state = 'active'
             $scope.current_documents = docs
+
         $scope.init = ->
             $scope.documents =
                 'Start':
@@ -163,11 +164,12 @@ angular.module('documentation',['ngRoute'])
                     desc: "begin to use grunt here"
                 'Configuration':
                     name: 'Configuration'
-                    src: "views/html/app/views/docs/_documentation/Configuration.html"
+                    src: 'views/html/app/views/docs/_documentation/Configuration.html'  
                     desc: "configure this!"
+                    link: 'views/html/app/views/docs/_configDocs/Edges.html'
                 'GraphJSON':
                     name: 'GraphJSON'
-                    src: 'views/html/app/views/docs/_documentation/GraphJSON.html',
+                    src: 'views/html/app/views/docs/_documentation/GraphJSON.html'
                     desc: "graph this!"
                 'GraphStyling':    
                     name: 'GraphStyling'
@@ -192,8 +194,27 @@ angular.module('documentation',['ngRoute'])
             if 'documentsName' of $routeParams
                 showDocs($routeParams.documentsName)
 
-            return
 
         $scope.showDocs = (name) ->
             showDocs(name)
-            return        
+        
+    # .controller 'configdocsCtrl', ($scope, $location, $routeParams) ->
+    #     showDocs = (name) ->
+    #        # _.forEach $scope.documents, (document) -> document.state = undefined
+    #         docs = $scope.documents[name]
+    #         docs.state = 'active'
+    #         $scope.current_documents = docs   
+
+    #     $scope.init = ->    
+
+    #         $scope.documents =
+    #             'Edges':
+    #                 name: 'Edges'
+    #                 src: 'views/html/app/views/docs/_configDocs/Edges.html'
+    #                 desc: 'On the edge'
+    #                 id: 'Edges'  
+    #         if 'documentsName' of $routeParams
+    #             showDocs($routeParams.documentsName)        
+
+    #     $scope.showDocs = (name) ->
+            # showDocs(name)

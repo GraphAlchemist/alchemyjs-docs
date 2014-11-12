@@ -1,9 +1,4 @@
----
-position: 2
-title: Configuration
----
 
-{% capture configOverview %}
 
 # Configuration: Overview
 
@@ -14,23 +9,11 @@ The only configuration absolutely necessary is the [dataSource](#datasource) con
 Additionally, configurations for any app are available at the alchemy.conf endpoint after the app has been initialized.   
 
 
+<div id ="documents" class ="row" ng-app="alchemyDocuments" ng-controller="docsCtrl" ng-init="init()">{{current_documents.name}}
+	
 
-{% endcapture %}
+	
 
-{{ configOverview | markdownify }}
+</div>
 
-
-{% assign sorted_configDocs = (site.configDocs | sort: 'position') %}
-
-{% for item in sorted_configDocs %}
-
-    {% assign href = ({{item.title}} | replace: ' ', '-') %}
-
-<section class="config-doc" id="{{href}}">
-
-{{item.content | markdownify}}
-
-</section>
-
-    {% endfor %}
 
