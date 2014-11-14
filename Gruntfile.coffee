@@ -46,18 +46,19 @@ module.exports = (grunt) ->
         files: [
             {
             expand: true
-            src: ['<%= yeoman.app %>/views/docs/*.md','<%= yeoman.app %>/views/docs/_apiDocs/*.md', '<%= yeoman.app %>/views/docs/_configDocs/*.md','<%= yeoman.app %>/views/docs/_documentation/*.md','<%= yeoman.app %>/views/docs/_layouts/*.md','<%= yeoman.app %>/views/docs/misc/*.md']
-            dest:'app/views/html'
+            cwd: '<%= yeoman.app %>/'
+            src: 'docs/{,*/*,*/*/}*.md' # look in the docs directory, three levels deep
+            dest:'.tmp/views/'
             ext: '.html'
             }
           ]
     
     # Watches files for changes and runs tasks based on the changed files
     watch:
-      jekyll:
+      markdown:
         files: ["<%= yeoman.app %>/docs/{,*/,*/*/}*{.scss,.coffee,.html,.md}"]
         tasks: [
-          "jekyll:dev"
+          "markdown"
           "compass:docs"
           "coffee:dist"
         ]
@@ -164,7 +165,10 @@ module.exports = (grunt) ->
           ]
         ]
 
-      server: ".tmp"
+      server: 
+        files: [ 
+          src: [ ".tmp" ]
+        ]
 
     
     # Add vendor prefixed styles
@@ -512,7 +516,6 @@ module.exports = (grunt) ->
         configFile: "test/karma.conf.coffee"
         singleRun: true
 
-  grunt.loadNpmTasks('grunt-markdown');
   grunt.registerTask "serve", "Compile then start a connect web server", (target) ->
     if target is "dist"
       return grunt.task.run([
@@ -522,7 +525,7 @@ module.exports = (grunt) ->
     grunt.task.run [
       "clean:server"
       "markdown"
-      "jekyll:dev"
+      # "jekyll:dev"
       #"wiredep"
       "concurrent:server"
       "autoprefixer"
@@ -545,7 +548,8 @@ module.exports = (grunt) ->
   ]
   grunt.registerTask "build", [
     "clean:dist"
-    "jekyll:dist"
+    "markdown"
+    # "jekyll:  dist"
     # "wiredep"
     "useminPrepare"
     "concurrent:dist"

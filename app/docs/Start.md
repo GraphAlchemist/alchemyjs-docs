@@ -1,8 +1,3 @@
----
-position: 1
-title: Start
----
-
 ## Philosophy
 
 <p class="lead">Alchemy.js is a graph drawing application built almost entirely in <a href="http://d3js.org/">d3</a>.</p>
@@ -92,7 +87,7 @@ The following are three different ways to get started with Alchemy.js.
     
 
 >> **Be amazed.**    
->> ![Two Nodes](views/docs/img/threenodes.png)
+>> ![Two Nodes](img/threenodes.png)
 
 ### Download and include Alchemy.js:  
 
