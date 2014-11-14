@@ -1,17 +1,34 @@
-<div id ="documents" class ="row" ng-app="alchemyDocuments" ng-controller="docsCtrl" ng-init="init()">
-	<div id="documents-list" class="list-group col-md-3">
-		<a class="list-group-item h1">Documentation</a>
-		<a ng-repeat="docs in orderedDocuments" class="list-group-item documents-bar {{documents[docs].state}} docs" ng-click="showDocs(docs)">
-			{{ documents[docs].name }}
-		</a>
+<div id ="documents" class ="container-fluid" ng-controller="docsCtrl" ng-init="init()">
+	<div class="row">
+		<div class="col-md-12">
+			<div id="sidebar-wrapper">
+				<div id="sidebar" class="list-group">
+					<div ng-repeat="doc in documents" class="section-bar list-group-item" id="nav-{{doc}}">
+						<a class="level-1 active" href="#{{doc}}"> {{doc}} </a>
+					</div>
+
+						<!-- <a class="list-group-item h1">Documentation</a>
+						<a ng-repeat="docs in documents" ng-class="list-group-item documents-bar" id="{{docs}}-link" ng-click="showDocs(docs)"> -->
+						<!-- this is a placeholder, and will by dynamically
+						created Table of Contents based on the headers that come
+						with the HTML -->
+						<!-- {{ docs }} -->
+						<!-- </a> -->
+				</div>
+			</div>
+  		
+	  		<div id="doc-content">
+			  	<section class="doc" id="{{ doc }}" ng-repeat="doc in documents">
+			  		<ng-include src="getDocPartial(doc)" scope="" onload="createToC(doc)"></ng-include>
+			    </section>
+		 	</div>
+
+		 <!-- end .col-md-12 -->
+		 </div>
+	
+	<!-- end .row -->
 	</div>
-    <h1>Yay!!!</h1>
-    
-    
 
-	
-	<div class="col-md-9 documents" id="{{current_documents.id}}" ng-model="documents" ng-include="current_documents.src" ></div>
-
-	
+<!-- end #documents  -->
 </div>
 

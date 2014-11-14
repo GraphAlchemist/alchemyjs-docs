@@ -4,4 +4,4 @@ dist
 .sass-cache
 bower_components
 app/views/docs
-
+.DS_Store
