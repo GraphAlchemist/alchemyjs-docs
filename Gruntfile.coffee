@@ -48,7 +48,7 @@ module.exports = (grunt) ->
             expand: true
             cwd: '<%= yeoman.app %>/'
             src: 'docs/{,*/*,*/*/}*.md' # look in the docs directory, three levels deep
-            dest:'<%= yeoman.app %>/views/'
+            dest:'.tmp/views/'
             ext: '.html'
             }
           ]
@@ -165,7 +165,10 @@ module.exports = (grunt) ->
           ]
         ]
 
-      server: ".tmp"
+      server: 
+        files: [ 
+          src: [ ".tmp" ]
+        ]
 
     
     # Add vendor prefixed styles
@@ -513,7 +516,6 @@ module.exports = (grunt) ->
         configFile: "test/karma.conf.coffee"
         singleRun: true
 
-  # grunt.loadNpmTasks('grunt-markdown');
   grunt.registerTask "serve", "Compile then start a connect web server", (target) ->
     if target is "dist"
       return grunt.task.run([
