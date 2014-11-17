@@ -1,10 +1,7 @@
----
-position: 1
-title: Nodes
----
+
 <br/>
 
-# Nodes
+## Nodes
 
 <p></p>
 

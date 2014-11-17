@@ -1,9 +1,6 @@
----
-position: 7
-title: Contributing
----
 
-# Contributing: Overview
+
+## Contributing: Overview
 
  <p></p>
 

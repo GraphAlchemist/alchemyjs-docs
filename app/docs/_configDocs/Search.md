@@ -1,9 +1,6 @@
----
-position: 6
-title: Search
----
 
-# Search
+
+## Search
 
 <p></p>
 

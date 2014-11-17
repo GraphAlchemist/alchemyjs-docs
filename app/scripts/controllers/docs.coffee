@@ -9,7 +9,7 @@
 ###
 
 angular.module('documentation',['ngRoute'])
-    .controller 'docsCtrl', ($scope, $location, $routeParams) ->
+    .controller 'docsCtrl', ($scope, $location, $routeParams, $anchorScroll) ->
         # showDocs = (name) ->
         #     _.forEach $scope.documents, (document) -> document.state = undefined
         #     docs = $scope.documents[name]
@@ -25,6 +25,7 @@ angular.module('documentation',['ngRoute'])
                 'Examples'
                 'Contributing'
                 'API'
+
             ]
 
                 # 'Start':
@@ -75,7 +76,7 @@ angular.module('documentation',['ngRoute'])
             # since we edit the docs in markdown, headers, subheaders,
             # etc. may change.  For this reason, we use this function to 
             # build the table of contents style side bar on the fly
-            section = angular.element("section##{docName}")
+            section = angular.element("section #{docName}")
             h2 = angular.element(section).find("h2")
             
             sideBarSection = angular.element("#nav-#{docName}")           
@@ -86,9 +87,9 @@ angular.module('documentation',['ngRoute'])
                                         .attr("class", "level-2 list-group hidden")
                 sideBarSection.append(level2headers)
                 for header in h2
-                    debugger
+                    # debugger
                     title = angular.element('<a>')
-                                    .attr('href', "##{header.attr('id')}")
+                                    .attr('href', "##{header.getAttribute('id')}")
                                     .attr('class', "level-2 list-group-item")
                     level2headers.append(title)
 
@@ -123,6 +124,9 @@ angular.module('documentation',['ngRoute'])
                             nextLvl.append("<a class='level-2 list-group-item' href='##{id}'>#{text}</a>")
 
                         $("#sidebar").find("div.level-2").addClass("hidden")
+
+        $location.hash("href")
+        $anchorScroll()
         
     # .controller 'configdocsCtrl', ($scope, $location, $routeParams) ->
     #     showDocs = (name) ->

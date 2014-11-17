@@ -1,9 +1,5 @@
----
-position: 7
-title: Other
----
 
-# Other
+## Other
 
 <p></p>
 
