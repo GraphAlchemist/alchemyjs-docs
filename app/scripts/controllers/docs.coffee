@@ -10,6 +10,7 @@
 
 angular.module('documentation',['ngRoute'])
     .controller 'docsCtrl', ($scope, $location, $routeParams, $anchorScroll) ->
+        $anchorScroll.yOffset = 100
         # showDocs = (name) ->
         #     _.forEach $scope.documents, (document) -> document.state = undefined
         #     docs = $scope.documents[name]
@@ -79,7 +80,7 @@ angular.module('documentation',['ngRoute'])
             section = angular.element("section #{docName}")
             h2 = angular.element(section).find("h2")
             
-            sideBarSection = angular.element("#nav-#{docName}")           
+            sideBarSection = angular.element("anchor #{docName}")           
             
             if h2.length
                 level2headers = angular.element('<div>')
@@ -87,7 +88,7 @@ angular.module('documentation',['ngRoute'])
                                         .attr("class", "level-2 list-group hidden")
                 sideBarSection.append(level2headers)
                 for header in h2
-                    # debugger
+                    debugger
                     title = angular.element('<a>')
                                     .attr('href', "##{header.getAttribute('id')}")
                                     .attr('class', "level-2 list-group-item")
@@ -97,6 +98,7 @@ angular.module('documentation',['ngRoute'])
                     "foo"
             
             href = docName
+
 
 
             for section in $("#sidebar").children()
@@ -125,8 +127,12 @@ angular.module('documentation',['ngRoute'])
 
                         $("#sidebar").find("div.level-2").addClass("hidden")
 
-        $location.hash("href")
-        $anchorScroll()
+        $scope.gotoAnchor = (doc) ->
+            
+            if $location.hash() isnt doc
+                $location.hash(doc)
+            else 
+                $anchorScroll()
         
     # .controller 'configdocsCtrl', ($scope, $location, $routeParams) ->
     #     showDocs = (name) ->
