@@ -116,9 +116,15 @@ angular.module('alchemyExamples', ['ngRoute'])
                     id: 'Advanced_Styling'
                     desc: 'Differential styling based on the properties of nodes and edges.'
 
+                'Philosophy_Example':
+                    name: 'Philosophers\' Relatedness'
+                    src: 'views/examples/Philosophy_Example.html'
+                    id: 'Philosophy_Example'
+                    desc: 'Graph of a Wikipedia relatedness metric among 5 Presocratic Philosophers'
+
             $scope.orderedExamples = ['Basic_Graph', 'Embedded_Graph', 
                                       'Custom_Styling','Advanced_Styling',
-                                      'Full_Application'
+                                      'Full_Application', 'Philosophy_Example'
                                   ]
 
             if 'exampleName' of $routeParams
