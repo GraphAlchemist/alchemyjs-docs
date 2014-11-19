@@ -106,8 +106,12 @@ angular.module('alchemyExamples', ['ngRoute'])
                     name: 'Custom Styling'
                     src: 'views/examples/Custom_Styling.html',
                     desc: "An example illustrating how to apply custom styles to the graph, overriding Alchemy's default configuration by using nodeTypes and edgeTypes."
+                'Clustering':
+                    name: 'Clustering'
+                    src: 'views/examples/Clustering.html',
+                    desc: "An example illustrating how to "
                 'Full_Application':    
-                    name: 'Full Application'
+                    name: 'Full application'
                     src: 'views/examples/Full_Application.html'
                     desc: "A full application using clustering, filters, node typing, and search."
                 'Advanced_Styling':
@@ -115,10 +119,18 @@ angular.module('alchemyExamples', ['ngRoute'])
                     src: 'views/examples/Advanced_Styling.html'
                     id: 'Advanced_Styling'
                     desc: 'Differential styling based on the properties of nodes and edges.'
+                'Philosophers':    
+                    name: 'Philosophers'
+                    src: 'views/examples/Basic_Graph.html'
+                    desc: "A full application using..."
+                'IRC':    
+                    name: 'IRC'
+                    src: 'views/examples/Basic_Graph.html'
+                    desc: "A full application using..."
 
             $scope.orderedExamples = ['Basic_Graph', 'Embedded_Graph', 
-                                      'Custom_Styling','Advanced_Styling',
-                                      'Full_Application'
+                                      'Custom_Styling','Clustering','Advanced_Styling',
+                                      'Full_Application', 'Philosophers','IRC'
                                   ]
 
             if 'exampleName' of $routeParams
