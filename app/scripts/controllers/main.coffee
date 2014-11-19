@@ -125,8 +125,15 @@ angular.module('alchemyExamples', ['ngRoute'])
                     src: 'views/examples/Basic_Graph.html'
                     desc: "A dymanic example..."
 
-            $scope.orderedExamples = ['Basic_Graph', 'Embedded_Graph','Custom_Styling','Clustering','Advanced_Styling',
-                                      'Full_Application', 'IRC'
+                'Philosophy_Example':
+                    name: 'Philosophers\' Relatedness'
+                    src: 'views/examples/Philosophy_Example.html'
+                    id: 'Philosophy_Example'
+                    desc: 'Graph of a Wikipedia relatedness metric among 5 Presocratic Philosophers'
+
+            $scope.orderedExamples = ['Basic_Graph', 'Embedded_Graph', 'Clustering',
+                                      'Custom_Styling','Advanced_Styling', 'IRC', 'Philosophy_Example',
+                                      'Full_Application'
                                   ]
 
             if 'exampleName' of $routeParams
