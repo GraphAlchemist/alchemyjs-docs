@@ -3,8 +3,8 @@
 		<div class="col-md-12">
 			<div id="sidebar-wrapper">
 				<div id="sidebar" class="list-group">
-					<div ng-repeat="doc in documents" class="section-bar list-group-item" id="nav-{{doc}}">
-						<a class="level-1 active" href="#{{doc}}"> {{doc}} </a>
+					<div ng-repeat="doc in documents" class="section-bar list-group-item" id="anchor{{doc}}">
+						<a class="level-1 active" ng-click = "gotoAnchor(doc)"> {{doc}} </a>
 					</div>
 
 						<!-- <a class="list-group-item h1">Documentation</a>
@@ -19,7 +19,7 @@
   		
 	  		<div id="doc-content">
 			  	<section class="doc" id="{{ doc }}" ng-repeat="doc in documents">
-			  		<ng-include src="getDocPartial(doc)" scope="" onload="createToC(doc)"></ng-include>
+			  		<ng-include src="getDocPartial(doc)" scope="" onload="createToC(doc)" autoscroll></ng-include>
 			    </section>
 		 	</div>
 

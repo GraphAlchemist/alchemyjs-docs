@@ -1,9 +1,6 @@
----
-position: 3
-title: GraphJSON
----
 
-# GraphJSON: Overview
+
+## GraphJSON: Overview
 
 Alchemy.js takes a simple data format called GraphJSON.  GraphJSON is similiar to GeoJSON in many ways, and is a standardized way to represent connected data in applications.  In the future, Alchemy.js will use GraphJSON for the transfer and storage of attributes that will allow for more robust visual representations of the underlying graph data.  For now, GraphJSON serves as a lightweight and flexible representation of graph data, easily consumed locally or over the web.
 

@@ -1,9 +1,6 @@
-<!-- For the next release
----
-position: 8
-title: Anotated Source
----
--->
+
+## Anotated Source
+
 
     """
     Alchemy.js is a graph drawing application for the web.

@@ -1,9 +1,6 @@
----
-position: 5
-title: Filtering
----
 
-# Filtering
+
+## Filtering
 
 <p></p>
 

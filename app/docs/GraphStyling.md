@@ -1,9 +1,6 @@
----
-position: 4
-title: Graph Styling
----
 
-# Graph Styling: Overview
+
+## Graph Styling: Overview
 
 Alchemy.js uses simple and intuitive configuration options to define graph styling.
 
