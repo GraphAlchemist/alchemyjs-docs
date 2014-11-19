@@ -102,14 +102,15 @@ angular.module('alchemyExamples', ['ngRoute'])
                     name: 'Embedded Graph'
                     src: "views/examples/Embedded_Graph.html"
                     desc: "An example with custom graphHeight, graphWidth, and linkDistance making it easy to include and embed within larger applications."
-                'Custom_Styling':
-                    name: 'Custom Styling'
-                    src: 'views/examples/Custom_Styling.html',
-                    desc: "An example illustrating how to apply custom styles to the graph, overriding Alchemy's default configuration by using nodeTypes and edgeTypes."
                 'Clustering':
                     name: 'Clustering'
                     src: 'views/examples/Clustering.html',
-                    desc: "An example illustrating how to "
+                    desc: "Alchemy.js allows you to cluster and color your nodes based on a cluster assignment."
+                'Custom_Styling':
+                    name: 'Custom Styling'
+                    src: 'views/examples/Custom_Styling.html',
+                    id:'Custom_Styling'
+                    desc: "An example illustrating how to apply custom styles to the graph, overriding Alchemy's default configuration by using nodeTypes and edgeTypes."
                 'Full_Application':    
                     name: 'Full application'
                     src: 'views/examples/Full_Application.html'
@@ -119,18 +120,13 @@ angular.module('alchemyExamples', ['ngRoute'])
                     src: 'views/examples/Advanced_Styling.html'
                     id: 'Advanced_Styling'
                     desc: 'Differential styling based on the properties of nodes and edges.'
-                'Philosophers':    
-                    name: 'Philosophers'
-                    src: 'views/examples/Basic_Graph.html'
-                    desc: "A full application using..."
                 'IRC':    
                     name: 'IRC'
                     src: 'views/examples/Basic_Graph.html'
-                    desc: "A full application using..."
+                    desc: "A dymanic example..."
 
-            $scope.orderedExamples = ['Basic_Graph', 'Embedded_Graph', 
-                                      'Custom_Styling','Clustering','Advanced_Styling',
-                                      'Full_Application', 'Philosophers','IRC'
+            $scope.orderedExamples = ['Basic_Graph', 'Embedded_Graph','Custom_Styling','Clustering','Advanced_Styling',
+                                      'Full_Application', 'IRC'
                                   ]
 
             if 'exampleName' of $routeParams
