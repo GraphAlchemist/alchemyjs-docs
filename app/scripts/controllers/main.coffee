@@ -102,12 +102,17 @@ angular.module('alchemyExamples', ['ngRoute'])
                     name: 'Embedded Graph'
                     src: "views/examples/Embedded_Graph.html"
                     desc: "An example with custom graphHeight, graphWidth, and linkDistance making it easy to include and embed within larger applications."
+                'Clustering':
+                    name: 'Clustering'
+                    src: 'views/examples/Clustering.html',
+                    desc: "Alchemy.js allows you to cluster and color your nodes based on a cluster assignment."
                 'Custom_Styling':
                     name: 'Custom Styling'
                     src: 'views/examples/Custom_Styling.html',
+                    id:'Custom_Styling'
                     desc: "An example illustrating how to apply custom styles to the graph, overriding Alchemy's default configuration by using nodeTypes and edgeTypes."
                 'Full_Application':    
-                    name: 'Full Application'
+                    name: 'Full application'
                     src: 'views/examples/Full_Application.html'
                     desc: "A full application using clustering, filters, node typing, and search."
                 'Advanced_Styling':
@@ -115,10 +120,13 @@ angular.module('alchemyExamples', ['ngRoute'])
                     src: 'views/examples/Advanced_Styling.html'
                     id: 'Advanced_Styling'
                     desc: 'Differential styling based on the properties of nodes and edges.'
+                'IRC':    
+                    name: 'IRC'
+                    src: 'views/examples/Basic_Graph.html'
+                    desc: "A dymanic example..."
 
-            $scope.orderedExamples = ['Basic_Graph', 'Embedded_Graph', 
-                                      'Custom_Styling','Advanced_Styling',
-                                      'Full_Application'
+            $scope.orderedExamples = ['Basic_Graph', 'Embedded_Graph','Custom_Styling','Clustering','Advanced_Styling',
+                                      'Full_Application', 'IRC'
                                   ]
 
             if 'exampleName' of $routeParams
