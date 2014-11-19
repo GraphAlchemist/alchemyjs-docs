@@ -71,13 +71,15 @@ angular.module('documentation',['ngRoute'])
         $scope.getDocPartial = (docName) ->
             # loads all of the markdown partials that have been
             # precompiled into HTML
+
             "views/docs/#{docName}.html"
 
         $scope.createToC = (docName) ->
             # since we edit the docs in markdown, headers, subheaders,
             # etc. may change.  For this reason, we use this function to 
             # build the table of contents style side bar on the fly
-            section = angular.element("section #{docName}")
+            section = angular.element(" ##{docName}")
+
             h2 = angular.element(section).find("h2")
             
             sideBarSection = angular.element("anchor #{docName}")           
@@ -88,21 +90,22 @@ angular.module('documentation',['ngRoute'])
                                         .attr("class", "level-2 list-group hidden")
                 sideBarSection.append(level2headers)
                 for header in h2
-                    debugger
+                    
                     title = angular.element('<a>')
                                     .attr('href', "##{header.getAttribute('id')}")
                                     .attr('class', "level-2 list-group-item")
                     level2headers.append(title)
 
-                    # debugger
+                    
                     "foo"
             
             href = docName
-
+            
 
 
             for section in $("#sidebar").children()
                 href = $(section).children("a.level-1")[0].hash.replace("#", "")
+                
                 sectionContent = $("##{href}").children("section, h2, h3, h4, h5")
                 if sectionContent.length
                     $(section).append("<div id='lvl-2-#{href}' class='level-2 list-group'>")
@@ -128,7 +131,7 @@ angular.module('documentation',['ngRoute'])
                         $("#sidebar").find("div.level-2").addClass("hidden")
 
         $scope.gotoAnchor = (doc) ->
-            
+
             if $location.hash() isnt doc
                 $location.hash(doc)
             else 
