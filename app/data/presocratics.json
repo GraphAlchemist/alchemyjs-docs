@@ -1689,26 +1689,31 @@
       {
          "id":"0",
          "root":true,
+         "type": "philosopher",
          "title":"Pythagoras"
       },
       {
          "id":"1",
          "root":true,
+         "type": "philosopher",
          "title":"Heraclitus"
       },
       {
          "id":"2",
          "root":true,
+         "type": "philosopher",
          "title":"Gorgias"
       },
       {
          "id":"3",
          "root":true,
+         "type": "philosopher",
          "title":"Zeno"
       },
       {
          "id":"4",
          "root":true,
+         "type": "philosopher",
          "title":"Democritus"
       }
    ],
