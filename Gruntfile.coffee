@@ -39,7 +39,7 @@ module.exports = (grunt) ->
         options:
           replacements: [
             pattern: /#VERSION#/ig
-            replacement: "0.4.0"
+            replacement: pkg.version
           ]
     
     # Watches files for changes and runs tasks based on the changed files
