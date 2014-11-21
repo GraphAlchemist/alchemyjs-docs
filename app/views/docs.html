@@ -7,6 +7,32 @@
 						<a class="level-1 active" ng-click = "gotoAnchor(doc)"> {{doc}} </a>
 					</div>
 
+
+<div ng-init="showVehicles=true">
+   <div>
+     <label class="control-label col-lg-4">
+      <a href="" ng-show="!showVehicles" ng-click="showVehicles=!showVehicles">+</a>
+      <a href="" ng-show="showVehicles" ng-click="showVehicles=!showVehicles">-</a>
+      <a href="" ng-click="showVehicles=!showVehicles">My Vehicles</a>
+     </label>
+   </div>
+ 
+<div ng-show="showVehicles">
+  <div class="col-lg-8 col-lg-offset-2">
+    <div ng-repeat="(k,v) in vehicles">
+      <label class="control-label col-lg-4">
+        <a href="" ng-show="!showBikes" ng-click="showBikes=!showBikes">+</a>
+        <a href="" ng-show="showBikes" ng-click="showBikes=!showBikes">-</a>
+        <a href="" ng-click="showBikes=!showBikes">{{k}}</a>
+        <div ng-repeat="z in v">
+          <a href="" ng-show="showBikes">{{z}}</a>
+        </div>
+      </label> 
+    </div>
+  </div>
+</div>
+</div>
+
 						<!-- <a class="list-group-item h1">Documentation</a>
 						<a ng-repeat="docs in documents" ng-class="list-group-item documents-bar" id="{{docs}}-link" ng-click="showDocs(docs)"> -->
 						<!-- this is a placeholder, and will by dynamically
