@@ -12,38 +12,44 @@ angular.module('documentation',['ngRoute'])
     .controller 'docsCtrl', ($scope, $location, $routeParams, $anchorScroll) ->
         $anchorScroll.yOffset = 100
        
+    
+
 
         $scope.init = ->
-            $scope.documents = [
-                'Start'
-                'Configuration' 
-                'GraphJSON'
-                'GraphStyling'
-                'Examples'
-                'Contributing'
-                'API'
-
-            ]
+            $scope.documents = {
+                'Start': {
+                    'Philosophy':[],
+                    'Quick Start':[]
+                },
+                'Configuration': { 
+                    'nodes': ['nodeTypes','nodeStyle'],
+                    'edges': []
+                },
+                'GraphJSON':{},
+                'GraphStyling':{},
+                'Examples':{},
+                'Contributing':{},
+                'API':{}
+        }
 
               
             
             if 'documentsName' of $routeParams
                 showDocs($routeParams.documentsName)
 
-
+    
+           
         
 
         $scope.getDocPartial = (docName) ->
             # loads all of the markdown partials that have been
             # precompiled into HTML
+            
 
             "views/docs/#{docName}.html"
 
-        $scope.createToC = (docName) ->
-            $scope.vehicles = {
-                "cars": ['Audi', 'BMW', 'Merc'],
-                "bikes": ['Yamaha', 'Honda', 'Enfield'],
-            }
+         $scope.createToC = (docName) ->
+       
         
 
 
@@ -72,7 +78,7 @@ angular.module('documentation',['ngRoute'])
                     
             #         "foo"
             
-            #href = docName
+            href = docName
             
 
 
@@ -109,5 +115,12 @@ angular.module('documentation',['ngRoute'])
                 $location.hash(doc)
             else 
                 $anchorScroll()
+
+
+angular.module("myFilters", [])
+    .filter 'keys', ()->
+        (input)->
+            return [] unless input
+            return Object.keys input
         
     

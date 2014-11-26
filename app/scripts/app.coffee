@@ -6,6 +6,7 @@ angular.module('site',['ngRoute'
                        'angular-inview'
                        'navigation'
                        'documentation'
+                       'myFilters'
                        ])
   .config ($routeProvider) ->
     $routeProvider
