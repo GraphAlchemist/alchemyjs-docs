@@ -123,7 +123,7 @@ angular.module('alchemyExamples', ['ngRoute'])
                 'IRC':
                     name: 'Communication Data'
                     src: 'views/examples/irc.html'
-                    desc: "Seven minutes of commication between members of the AngularJS, EmberJS, and KnockoutJS IRC channels."
+                    desc: "Seven minutes of communication between members of the AngularJS, EmberJS, and KnockoutJS IRC channels."
 
                 'Philosophy_Example':
                     name: 'Philosophers\' Relatedness'
