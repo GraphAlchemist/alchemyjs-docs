@@ -12,7 +12,7 @@ angular.module('documentation',['ngRoute'])
     .run (['$anchorScroll', ($anchorScroll)->
         $anchorScroll.yOffset = 50])
 
-    .controller 'docsCtrl', ($anchorScroll,  $location, $scope ) ->
+    .controller 'docsCtrl', ($anchorScroll,  $location, $scope, $routeParams ) ->
         
  
         $scope.init = ->
@@ -110,11 +110,10 @@ angular.module('documentation',['ngRoute'])
             #             $("#sidebar").find("div.level-2").addClass("hidden")
 
         $scope.gotoAnchor = (doc) ->
-            console.log doc
-            if $location.hash() isnt doc
-                $location.hash(doc)
-            # else 
-            #     $anchorScroll()
+            old = $location.hash()
+            $location.hash(doc)
+            $anchorScroll()
+            $location.hash(old)
 
 
 angular.module("myFilters", [])
