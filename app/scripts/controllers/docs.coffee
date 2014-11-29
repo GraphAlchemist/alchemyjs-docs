@@ -9,12 +9,12 @@
 ###
 
 angular.module('documentation',['ngRoute'])
-    .controller 'docsCtrl', ($scope, $location, $routeParams, $anchorScroll) ->
-        $anchorScroll.yOffset = 100
-       
-    
+    .run (['$anchorScroll', ($anchorScroll)->
+        $anchorScroll.yOffset = 50])
 
-
+    .controller 'docsCtrl', ($anchorScroll,  $location, $scope ) ->
+        
+ 
         $scope.init = ->
             $scope.documents = {
                 'Start': {
@@ -34,8 +34,8 @@ angular.module('documentation',['ngRoute'])
 
               
             
-            if 'documentsName' of $routeParams
-                showDocs($routeParams.documentsName)
+            # if 'documentsName' of $routeParams
+            #     showDocs($routeParams.documentsName)
 
     
            
@@ -48,7 +48,7 @@ angular.module('documentation',['ngRoute'])
 
             "views/docs/#{docName}.html"
 
-         $scope.createToC = (docName) ->
+        #$scope.createToC = (docName) ->
        
         
 
@@ -78,7 +78,7 @@ angular.module('documentation',['ngRoute'])
                     
             #         "foo"
             
-            href = docName
+           # href = docName
             
 
 
@@ -110,11 +110,11 @@ angular.module('documentation',['ngRoute'])
             #             $("#sidebar").find("div.level-2").addClass("hidden")
 
         $scope.gotoAnchor = (doc) ->
-
+            console.log doc
             if $location.hash() isnt doc
                 $location.hash(doc)
-            else 
-                $anchorScroll()
+            # else 
+            #     $anchorScroll()
 
 
 angular.module("myFilters", [])
