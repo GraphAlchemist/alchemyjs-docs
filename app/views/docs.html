@@ -4,21 +4,22 @@
 			<div id="sidebar-wrapper">
 				<div id="sidebar" class="list-group" ng-init="showSidebar=false">
 					<div ng-repeat="k in documents | keys" ng-init="v= documents[k]"class="section-bar list-group-item" id="anchor{{k}}">
+        				
 						<a class="level-1 active" ng-click = "gotoAnchor(k); showSidebar=!showSidebar">{{k}}</a>
-							<div ng-init="showSubsidebar=false" ng-repeat="subk in v | keys" ng-init="subv=v[subk]">
-	          					<a ng-show="showSidebar"  class="level-2 active" ng-click = "gotoAnchor(subk);showSubsidebar=!showSubsidebar">{{subk}}</a>
-        					
-			    				<div ng-repeat="subv in v track by $index" ng-init="subk=v[subv]">
-			      					<a ng-show="showSubsidebar"class="level-3 active" ng-click = "gotoAnchor(subv)">{{subv}}</a>
-			    				</div>
+						<div ng-init="showSubsidebar=false" ng-repeat="(subk,subv) in v">
+          					<a ng-show="showSidebar"  class="level-2 active" ng-click = "gotoAnchor(subk);showSubsidebar=!showSubsidebar">{{subk}}</a>
+        				
+		    				<div ng-repeat="subsubv in subv">
+		      					<a ng-show="showSubsidebar"class="level-3 active" ng-click = "gotoAnchor(subsubv)">{{subsubv}}</a>
 		    				</div>
+		    			</div>
 					</div>
 				</div>
 			</div>
   		
 	  		<div id="doc-content">
 			  	<section class="doc" id="{{ v }}" ng-repeat="(k,v) in documents | keys">
-			  		<ng-include src="getDocPartial(v)" scope="" onload="createToC(docName)"autoscroll=""></ng-include>
+			  		<ng-include src="getDocPartial(v)" scope="" onload=""autoscroll=""></ng-include>
 			    </section>
 		 	</div>
 
