@@ -116,3 +116,8 @@ angular.module('featCarousel', ['ui.bootstrap'])
             {image: "images/features/filters&Stats_movies.png", text: "Network statistic API endpoints to use in the rest of your app"}
         ]
 
+angular.module("orderOverride", [])
+    .filter 'keys', ()->
+        (input)->
+            return [] unless input
+            return Object.keys input
