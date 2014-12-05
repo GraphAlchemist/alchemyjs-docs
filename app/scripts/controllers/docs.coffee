@@ -19,17 +19,28 @@ angular.module('documentation',['ngRoute'])
             $scope.documents = {
                 'Start': {
                     'Philosophy':[],
-                    'Quick Start':[]
+                    'Quick Start':[],
+                    'Next Steps':[],
                 },
                 'Configuration': { 
-                    'nodes': ['nodeTypes','nodeStyle'],
-                    'edges': []
+                    'Nodes': [],
+                    'Edges': [],
+                    'Layout': [],
+                    'Editing': [],
+                    'Filtering': [],
+                    'Search': [],
+                    'Other': []
                 },
                 'GraphJSON':{},
                 'GraphStyling':{},
                 'Examples':{},
                 'Contributing':{},
-                'API':{}
+                'API':{
+                    'Get':[],
+                    'Create':[],
+                    'Node-Methods':[],
+                    'Edge-Methods':[],
+                }
         }
 
               
@@ -48,8 +59,66 @@ angular.module('documentation',['ngRoute'])
 
             "views/docs/#{docName}.html"
 
-        #$scope.createToC = (docName) ->
-       
+        
+        
+        $scope.tocRan = false            
+        $scope.createToC = () ->
+            if !$scope.tocRan
+                $scope.tocRan = true
+                sideBarSection = $("h2,h5")
+                docs = $scope.documents
+
+                currentHeader = 'Start'
+                currentSubHeader = ''
+                _.forEach sideBarSection, (tag)->
+                    content = tag.innerHTML
+                    if tag.tagName is "H2"
+                        if docs[content]?
+                            currentHeader = content 
+                        if docs[currentHeader][content]?
+                            currentSubHeader = content
+                    if tag.tagName is "H5"
+                        list = docs[currentHeader][currentSubHeader]
+                        list.push(content) if list?
+                    
+                # if tag.innerHTML == docs[tag.innerHTML]
+                #     console.log 'yes'
+                # else if tag.innerHTML != docs[tag.innerHTML]
+                #     console.log 'no'
+
+                # if docs.Start[tag.innerHTML]?
+                #     # do it
+                # if _.contains( _.keys(docs.Start), tag.innerHTML)
+                #     # do it
+                
+                # if tag.tagName is "H5"
+                #     # do something
+
+                # switch tag.tagName
+                # when "H5" then # do something
+                # when "H2" then # do something else
+
+                # if tag.innerHTML == docs.Start[tag.innerHTML]
+                #     # docs.Start.Philosophy.push(tag.innerHTML)
+                #     console.log 'done'
+                # else if tag.innerHTML == !docs.Start[tag.innerHTML]
+                # # else if tag.tagName == 'H5'
+                #         console.log '5'
+                #     $scope.documents.Start.Philosophy.push(x)
+                
+                   
+                 
+            
+
+                
+            
+            
+
+            
+
+            
+            
+
         
 
 
@@ -116,10 +185,6 @@ angular.module('documentation',['ngRoute'])
             $location.hash(old)
 
 
-angular.module("myFilters", [])
-    .filter 'keys', ()->
-        (input)->
-            return [] unless input
-            return Object.keys input
+
         
     

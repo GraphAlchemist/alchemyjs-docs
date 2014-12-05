@@ -134,11 +134,6 @@ alchemy.conf.nodeRadius: function(n) {
 };
 ~~~
 
-##### rootNodeRadius
-
-[`int`] default:`15`   
-
-The default size of root node(s).  Read more about how to define root nodes in your GraphJSON [here](#defining-root-nodes).
 
 ##### nodeTypes
 
