@@ -1,13 +1,15 @@
-## Create
+### Create
 
 <p></p>
 
 ##### alchemy.createNodes
 <!--  -->
-`alchemy.createNodes(node map[, another node map])`<br>
-This method receives objects which are property maps of nodes as defined in [GraphJSON](#GraphJSON).  For example:
 
-~~~ json
+`alchemy.createNodes(node map[, another node map])`
+<br>
+This method receives objects which are property maps of nodes as defined in [GraphJSON](#GraphJSON). For example:
+
+~~~json
 {
     "id": 1,
     "firstName": "Grace",
@@ -18,6 +20,7 @@ This method receives objects which are property maps of nodes as defined in [Gra
 ~~~
 
 This method can be used to create one or more nodes at a time.  For example:
+
 ~~~ javascript
 // Create one node
 var grace = {"id": 1, "firstName": "Grace", ...};
@@ -26,6 +29,7 @@ alchemy.createNodes(grace);
 var matt = {"id": 2, "firstName": "Matt", ...};
 alchemy.createNodes(grace, matt);
 ~~~
+
 
 ##### alchemy.createEdges
 <!--  -->

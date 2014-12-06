@@ -7,7 +7,7 @@
         				
 						<a class="level-1 active" ng-click = "gotoAnchor(k); showSidebar=!showSidebar">{{k}}</a>
 						<div ng-init="showSubsidebar=false" ng-repeat="(subi,subk) in v | keys" id="anchor{{subk}}">
-          					<a ng-show="showSidebar"  class="level-2 active" ng-click = "gotoAnchor(subk);showSubsidebar=!showSubsidebar">{{subk}}</a>
+          					<a ng-show="showSidebar"  class="level-2 active" ng-click = "gotoAnchor(subk.toLowerCase);showSubsidebar=!showSubsidebar">{{subk}}</a>
         				
 		    				<div ng-repeat="value in v[subk]" id="anchor{{value}}">
 		      					<a ng-show="showSubsidebar"class="level-3" ng-click = "gotoAnchor(value.toLowerCase())">{{value}}</a>
