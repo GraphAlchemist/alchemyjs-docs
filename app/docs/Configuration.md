@@ -1,6 +1,6 @@
 
 
-## Configuration: Overview
+## Configuration
 <p></p>
 
 Alchemy.js is initialized using the `alchemy.begin(your_config)` where the **your_config** object includes any of the configurations here that you would like to override.
@@ -16,6 +16,7 @@ Additionally, configurations for any app are available at the alchemy.conf endpo
 <ng-include src="'views/docs/_configDocs/Editing.html'"></ng-include>
 <ng-include src="'views/docs/_configDocs/Filtering.html'"></ng-include>
 <ng-include src="'views/docs/_configDocs/Search.html'"></ng-include>
+
 <ng-include src="'views/docs/_configDocs/Other.html'"></ng-include>
 
 

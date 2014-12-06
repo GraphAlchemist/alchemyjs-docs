@@ -1,6 +1,6 @@
 
 
-## Contributing: Overview
+## Contributing
 
  <p></p>
 

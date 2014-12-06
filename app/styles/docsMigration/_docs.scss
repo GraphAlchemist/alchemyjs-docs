@@ -72,7 +72,8 @@ code {
 			}
 			.level-3 {
 				font-size: 14px;
-				.active{
+				margin-left: 20px;
+				&.active{
 					background-color: $blue;
 					margin-left: 10px;
 					color: $bright-orange;

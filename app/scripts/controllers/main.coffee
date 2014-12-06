@@ -47,39 +47,7 @@ angular.module('site')
         return
         
 
-# angular.module('navigation', ['ui.bootstrap'])
-#     .controller 'navCtrl', ($scope, $location, $route, $http) ->
-#         $scope.$on '$routeChangeSuccess', ->
-#             if $location.path() is '/examples/FullApp'
-#                 $scope.showNav = "hidden"
-#             else
-#                 $scope.showNav = ""
 
-#         $scope.init = ->
-#             # $scope.getGHData()
-#             $scope.links =   
-#             [
-#                 { name: 'Home', href: '/'},
-#                 { name: 'Examples', href: '/examples'},
-#                 { name: 'Documents', href: '/docs'} 
-#             ] 
-#             $scope.active($location.path())
-#             $scope.hidden = false
-
-#         $scope.active = (navTab) ->
-#             $location.hash("")
-#             for link in $scope.links
-#                 if navTab is link.href
-#                     link.state= "active"
-#                     $location.path(link.href)
-#                 else 
-#                     link.state= ""
-        
-#         $scope.socialToggle = ->
-#             if $scope.hidden is false
-#                 $scope.hidden = true
-#             else if $scope.hidden is true
-#                 $scope.hidden = false
 
 
 angular.module('alchemyExamples', ['ngRoute'])
@@ -148,73 +116,8 @@ angular.module('featCarousel', ['ui.bootstrap'])
             {image: "images/features/filters&Stats_movies.png", text: "Network statistic API endpoints to use in the rest of your app"}
         ]
 
-# angular.module('documentation',['ngRoute'])
-#     .controller 'docsCtrl', ($scope, $location, $routeParams) ->
-#         showDocs = (name) ->
-#             _.forEach $scope.documents, (document) -> document.state = undefined
-#             docs = $scope.documents[name]
-#             docs.state = 'active'
-#             $scope.current_documents = docs
-
-#         $scope.init = ->
-#             $scope.documents =
-#                 'Start':
-#                     name: 'Start'
-#                     src: 'views/html/app/views/docs/_documentation/start.html'
-#                     desc: "begin to use grunt here"
-#                 'Configuration':
-#                     name: 'Configuration'
-#                     src: 'views/html/app/views/docs/_documentation/Configuration.html'  
-#                     desc: "configure this!"
-#                     link: 'views/html/app/views/docs/_configDocs/Edges.html'
-#                 'GraphJSON':
-#                     name: 'GraphJSON'
-#                     src: 'views/html/app/views/docs/_documentation/GraphJSON.html'
-#                     desc: "graph this!"
-#                 'GraphStyling':    
-#                     name: 'GraphStyling'
-#                     src: 'views/html/app/views/docs/_documentation/GraphStyling.html'
-#                     desc: "styling"
-#                 'Examples':
-#                     name: 'Examples'
-#                     src: 'views/html/app/views/docs/_documentation/Examples.html'
-                    
-#                 'Contributing':
-#                     name: 'Contributing'
-#                     src: 'views/html/app/views/docs/_documentation/Contributing.html'
-#                     desc: 'contribute'
-#                 'API':
-#                     name: 'API'
-#                     src: 'views/html/app/views/docs/_documentation/API.html'
-#                     desc: 'API'    
-#             $scope.orderedDocuments = ['Start', 'Configuration', 
-#                                       'GraphJSON','GraphStyling',
-#                                       'Examples','Contributing','API'
-#                                   ]
-#             if 'documentsName' of $routeParams
-#                 showDocs($routeParams.documentsName)
-
-
-#         $scope.showDocs = (name) ->
-#             showDocs(name)
-        
-#     # .controller 'configdocsCtrl', ($scope, $location, $routeParams) ->
-#     #     showDocs = (name) ->
-#     #        # _.forEach $scope.documents, (document) -> document.state = undefined
-#     #         docs = $scope.documents[name]
-#     #         docs.state = 'active'
-#     #         $scope.current_documents = docs   
-
-#     #     $scope.init = ->    
-
-#     #         $scope.documents =
-#     #             'Edges':
-#     #                 name: 'Edges'
-#     #                 src: 'views/html/app/views/docs/_configDocs/Edges.html'
-#     #                 desc: 'On the edge'
-#     #                 id: 'Edges'  
-#     #         if 'documentsName' of $routeParams
-#     #             showDocs($routeParams.documentsName)        
-
-#     #     $scope.showDocs = (name) ->
-#             # showDocs(name)
+angular.module("orderedList", [])
+    .filter 'keys', ()->
+        (input)->
+            return [] unless input
+            return Object.keys input
