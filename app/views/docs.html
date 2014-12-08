@@ -3,14 +3,14 @@
 		<div class="col-md-12">
 			<div id="sidebar-wrapper">
 				<div id="sidebar" class="list-group" ng-init="showSidebar=false">
-					<div ng-repeat="k in documents | keys" ng-init="v= documents[k]" class="section-bar list-group-item" id="anchor{{k}}">
+					<div ng-repeat="k in documents | keys" ng-init="v= documents[k]" class="section-bar list-group-item" >
         				
 						<a class="level-1 active" ng-click = "gotoAnchor(k); showSidebar=!showSidebar">{{k}}</a>
-						<div ng-init="showSubsidebar=false" ng-repeat="(subi,subk) in v | keys" id="anchor{{subk}}">
-          					<a ng-show="showSidebar"  class="level-2 active" ng-click = "gotoAnchor(subk.toLowerCase);showSubsidebar=!showSubsidebar">{{subk}}</a>
+						<div ng-init="showSubsidebar=false" ng-repeat="(subi,subk) in v | keys" >
+          					<a ng-show="showSidebar"  class="level-2 active" ng-click = "gotoAnchor(anchorName(subk)); showSubsidebar=!showSubsidebar">{{subk}}</a>
         				
-		    				<div ng-repeat="value in v[subk]" id="anchor{{value}}">
-		      					<a ng-show="showSubsidebar"class="level-3" ng-click = "gotoAnchor(value.toLowerCase())">{{value}}</a>
+		    				<div ng-repeat="value in v[subk]" >
+		      					<a ng-show="showSubsidebar"class="level-3" ng-click = "gotoAnchor(anchorName(value))">{{value}}</a>
 		    				</div>
 		    			</div>
 					</div>

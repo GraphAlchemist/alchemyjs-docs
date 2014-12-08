@@ -26,8 +26,8 @@ angular.module('documentation',['ngRoute'])
                 'API': {}
         }
             
-            # if 'documentsName' of $routeParams
-            #     showDocs($routeParams.documentsName)
+            if 'documentsName' of $routeParams
+                showDocs($routeParams.documentsName)
 
         $scope.getDocPartial = (docName) ->
             # loads all of the markdown partials that have been
@@ -60,11 +60,23 @@ angular.module('documentation',['ngRoute'])
                         list.push(content) if list?
 
         $scope.gotoAnchor = (doc) ->
+            
             old = $location.hash()
             $location.hash(doc)
             $anchorScroll()
             $location.hash(old)
+            
 
+
+         $scope.anchorName = (value) ->
+            
+            # value.toLowerCase()
+            # value.split('.').join('-')
+            # value.split(' ').join('-')
+
+            value.toLowerCase()
+                 .split('.').join('-')
+                 .split(' ').join('-')
 
 
         
