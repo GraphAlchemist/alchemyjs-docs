@@ -1,6 +1,6 @@
 {
   "name": "site",
-  "version": "0.0.0",
+  "version": "0.4.1",
   "dependencies": {
     "marked": "^0.3.2"
   },
