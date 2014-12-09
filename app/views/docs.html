@@ -5,7 +5,7 @@
 				<div id="sidebar" class="list-group" ng-init="showSidebar=false">
 					<div ng-repeat="k in documents | keys" ng-init="v= documents[k]" class="section-bar list-group-item" >
         				
-						<a class="level-1 active" ng-click = "gotoAnchor(k); showSidebar=!showSidebar">{{k}}</a>
+						<a class="level-1 active" ng-click = "gotoAnchor(k); showSidebar=!showSidebar; showSubsidebar=false; sidebarView(showSubsidebar)">{{k}}</a>
 						<div ng-init="showSubsidebar=false" ng-repeat="(subi,subk) in v | keys" >
           					<a ng-show="showSidebar"  class="level-2 active" ng-click = "gotoAnchor(anchorName(subk)); showSubsidebar=!showSubsidebar">{{subk}}</a>
         				

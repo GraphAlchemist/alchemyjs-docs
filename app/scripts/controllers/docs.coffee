@@ -68,15 +68,28 @@ angular.module('documentation',['ngRoute'])
             
 
 
-         $scope.anchorName = (value) ->
-            
-            # value.toLowerCase()
-            # value.split('.').join('-')
-            # value.split(' ').join('-')
+        $scope.anchorName = (value) ->
 
             value.toLowerCase()
                  .split('.').join('-')
                  .split(' ').join('-')
+
+        # $scope.sidebarView = (sidebar) ->
+             
+        #     showSidebar=!showSidebar
+        #     showSubsidebar=false
+        #     if showSidebar==true 
+        #             showSubsidebar=!showSubsidebar
+            
+        #         if showSidebar==false 
+        #             showSubsidebar==false
+
+        #     console.log showSubsidebar    
+
+            
+
+
+
 
 
         
