@@ -67,9 +67,13 @@ angular.module('documentation',['ngRoute'])
             $location.hash(old)
 
         $scope.anchorName = (value) ->
-            value.toLowerCase()
+            j = value.toLowerCase()
+                 .split('(').join('')
+                 .split(')').join('')
                  .split('.').join('-')
                  .split(' ').join('-')
+        
+            if value.slice(-1) is ')' then "#{j}-" else j
 
         $scope.sidebarView = (topLevelId) ->
             $("##{topLevelId} .level-3").addClass("ng-hide")

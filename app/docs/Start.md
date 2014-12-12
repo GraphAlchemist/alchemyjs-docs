@@ -90,7 +90,7 @@ The following are three different ways to get started with Alchemy.js.
 >> **Be amazed.**    
 >> ![Two Nodes](img/threenodes.png)
 
-### Download and include Alchemy.js:  
+### Download and include Alchemy.js  
 
 ~~~ html
 <link rel="stylesheet" type="text/css" href="path/to/vendor.css">

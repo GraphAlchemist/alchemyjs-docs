@@ -26,7 +26,7 @@ Alchemy.js has a number of features that rely on the underlying data.  Most of t
 ### Captions  
 Captions are the text that displays in the graph visualization.  By default, the captions will display on search active, on node hover, and when filtering.  In the configuration, [nodeCaption](#nodecaption) defaults to "caption" which means that Alchemy.js will look for a "caption" key on each node.
 
-### Clustering 
+### Dynamic Clustering    
 Clustering can be enabled in the configuration by setting [cluster](#cluster) to `true`.  Alchemy.js will then look for a "cluster" key on the nodes, which will enable a clustering algorithm that colors and positions to nodes.  This is especially useful for social network analysis and any form of exploratory data analysis.
 
 ### Defining Root Nodes
@@ -56,7 +56,9 @@ Node and edge types are used for a number of tasks, including styling and filter
 
 while **edgeTypes** might look like this 
 
-~~~"edgeTypes": {"caption": ["ACTED_IN", "DIRECTED", "NOMINATED", etc.]}~~~.
+~~~
+"edgeTypes": {"caption": ["ACTED_IN", "DIRECTED", "NOMINATED", etc.]}
+~~~
 
 To include nodeTypes and edgeTypes to your application, add them into your script tag where you defined your dataset. 
 

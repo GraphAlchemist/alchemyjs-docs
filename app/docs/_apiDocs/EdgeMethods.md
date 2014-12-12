@@ -110,5 +110,3 @@ Returns true or false based on whether both the source and target node are activ
 Deletes the edge from Alchemy.  The edge is removed from both the edge data and the rendered visual.  It cannot be readded without reloading the data or creating it manually with alchemy.create.edges() 
 
 
-_______
-
