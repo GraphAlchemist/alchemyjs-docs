@@ -1,9 +1,5 @@
----
-position: 1
-title: Start
----
-
-## Philosophy
+<h2 style="display:none;">Start</h2>
+### Philosophy
 
 <p class="lead">Alchemy.js is a graph drawing application built almost entirely in <a href="http://d3js.org/">d3</a>.</p>
 
@@ -12,7 +8,7 @@ title: Start
 <p class="lead">Additionally, because Alchemy.js is built with <a href="http://d3js.org/">d3</a>, the core application can easily be extended with any of the other features included in <a href="http://d3js.org/">d3</a>.</p>  
 <br/>
 
-## Quick Start
+### Quick Start
 
 Alchemy.js requires three things, **alchemy.css**, **alchemy.js**, and **data**.  Additionally, Alchemy requires CSS, JavaScript, and font dependencies.  These dependencies with version numbers can be found in the [bower.json file](https://github.com/GraphAlchemist/Alchemy/blob/master/bower.json){:target="_blank"} on GitHub, can be loaded via the vendor.js and vendor.css files as outlined below, and are listed here:
 
@@ -120,7 +116,7 @@ bower install alchemyjs --save
 ~~~
 <br/>
 
-## Next Steps
+### Next Steps
 Alchemy.js relies on a flexible and open data format called **[GraphJSON](#GraphJSON)** and can do a lot more than draw small graphs.  Alchemy.js includes a large and growing set of default configurations that can be easily overridden.  Check out the **[configuration](#Configuration)** documentation to learn about all of the ways Alchemy.js can be configured out of the box.
 
 ____

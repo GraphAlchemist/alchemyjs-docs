@@ -1,9 +1,5 @@
----
-position: 3
-title: Layout
----
 
-# Layout
+### Layout
 
 <p></p>
 

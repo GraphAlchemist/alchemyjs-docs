@@ -41,13 +41,24 @@ module.exports = (grunt) ->
             pattern: /#VERSION#/ig
             replacement: pkg.version
           ]
+    markdown:
+      all:
+        files: [
+            {
+            expand: true
+            cwd: '<%= yeoman.app %>/'
+            src: 'docs/{,*/*,*/*/}*.md' # look in the docs directory, three levels deep
+            dest:'.tmp/views/'
+            ext: '.html'
+            }
+          ]
     
     # Watches files for changes and runs tasks based on the changed files
     watch:
-      jekyll:
+      markdown:
         files: ["<%= yeoman.app %>/docs/{,*/,*/*/}*{.scss,.coffee,.html,.md}"]
         tasks: [
-          "jekyll:dev"
+          "markdown"
           "compass:docs"
           "coffee:dist"
         ]
@@ -154,7 +165,10 @@ module.exports = (grunt) ->
           ]
         ]
 
-      server: ".tmp"
+      server: 
+        files: [ 
+          src: [ ".tmp" ]
+        ]
 
     
     # Add vendor prefixed styles
@@ -510,7 +524,8 @@ module.exports = (grunt) ->
       ])
     grunt.task.run [
       "clean:server"
-      "jekyll:dev"
+      "markdown"
+      # "jekyll:dev"
       #"wiredep"
       "concurrent:server"
       "autoprefixer"
@@ -533,7 +548,8 @@ module.exports = (grunt) ->
   ]
   grunt.registerTask "build", [
     "clean:dist"
-    "jekyll:dist"
+    "markdown"
+    # "jekyll:  dist"
     # "wiredep"
     "useminPrepare"
     "concurrent:dist"

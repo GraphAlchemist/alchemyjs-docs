@@ -1,9 +1,5 @@
----
-position: 4
-title: Editing
----
 
-# Editing
+### Editing
 
 <p></p>
 

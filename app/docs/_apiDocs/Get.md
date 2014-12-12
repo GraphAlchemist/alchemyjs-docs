@@ -1,9 +1,5 @@
----
-position: 1
-title: Get
----
 
-# Get
+### Get
 
 <p></p>
 
