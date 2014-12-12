@@ -26,8 +26,8 @@ angular.module('documentation',['ngRoute'])
                 'API': {}
         }
             
-            if 'documentsName' of $routeParams
-                showDocs($routeParams.documentsName)
+            # if 'documentsName' of $routeParams
+            #     showDocs($routeParams.documentsName)
 
         $scope.getDocPartial = (docName) ->
             # loads all of the markdown partials that have been
