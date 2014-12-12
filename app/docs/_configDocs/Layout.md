@@ -55,7 +55,7 @@ Clustering nodes will have a major effect on layout and color. This is one of Al
 ~~~
 
 The value for cluster will be used to look up a color from [`alchemy.conf.clusterColors`](#clustercolors).  All nodes of the same cluster will receive the same color.  Edges between nodes of the same cluster will receive that cluster's color, while edges that span between two nodes in different clusters will receive an inverse gradient of the two colors.  This makes it easy to visually identify 'boundary spanners' in social networks, unexpected links in a host of network analysis and link analysis use cases, and even to visually illustrate results of gene co-expression networks.  For example:
-![cluster](img/cluster.png)    
+![cluster](../docs/img/cluster.png)    
 <!-- TODO: cluster should accept a string e.g. "community" "category" etc. that would correspond to the key in the graph JSON-->
 
 ##### clusterKey
