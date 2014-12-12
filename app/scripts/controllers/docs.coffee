@@ -36,7 +36,7 @@ angular.module('documentation',['ngRoute'])
            
         $scope.tocRan = false            
         $scope.createToC = () ->
-             # since we edit the docs in markdown, headers, subheaders,
+            # since we edit the docs in markdown, headers, subheaders,
             # etc. may change.  For this reason, we use this function to 
             # build the table of contents style side bar on the fly
             if !$scope.tocRan
@@ -60,37 +60,15 @@ angular.module('documentation',['ngRoute'])
                         list.push(content) if list?
 
         $scope.gotoAnchor = (doc) ->
-            
             old = $location.hash()
             $location.hash(doc)
             $anchorScroll()
             $location.hash(old)
-            
-
 
         $scope.anchorName = (value) ->
-
             value.toLowerCase()
                  .split('.').join('-')
                  .split(' ').join('-')
 
-        # $scope.sidebarView = (sidebar) ->
-             
-        #     showSidebar=!showSidebar
-        #     showSubsidebar=false
-        #     if showSidebar==true 
-        #             showSubsidebar=!showSubsidebar
-            
-        #         if showSidebar==false 
-        #             showSubsidebar==false
-
-        #     console.log showSubsidebar    
-
-            
-
-
-
-
-
-        
-    
+        $scope.sidebarView = (topLevelId) ->
+            $("##{topLevelId} .level-3").addClass("ng-hide")
