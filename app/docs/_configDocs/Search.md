@@ -1,15 +1,11 @@
----
-position: 6
-title: Search
----
 
-# Search
+### Search
 
 <p></p>
 
-##### search 
+##### search
 
-[bool] default `false`
+[`bool`] default `false`
 
 Adds a search box to the control dash that searches through node captions.
 

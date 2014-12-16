@@ -1,9 +1,5 @@
----
-position: 7
-title: Other
----
 
-# Other
+### Other
 
 <p></p>
 
@@ -58,4 +54,4 @@ Defines the farthest that the user will be able to zoom in and out.  This applie
 
 When set to true, adds zoom in, zoom out, and reset buttons to the svg.
 
-____
+
