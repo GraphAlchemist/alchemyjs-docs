@@ -9,6 +9,9 @@ $fa-font-path: "fonts/";
 @import 'landing';
 @import 'svg';
 @import 'examples';
+@import 'buttonsVars.scss';
+@import 'coderay.scss';
+@import 'docs.scss';
 
 a {cursor: pointer;}
 

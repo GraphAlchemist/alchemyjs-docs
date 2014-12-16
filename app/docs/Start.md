@@ -88,7 +88,7 @@ The following are three different ways to get started with Alchemy.js.
     
 
 >> **Be amazed.**    
->> ![Two Nodes](img/threenodes.png)
+>> ![Two Nodes](../docs/img/threenodes.png)
 
 ### Download and include Alchemy.js:  
 

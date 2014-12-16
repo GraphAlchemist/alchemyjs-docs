@@ -20,16 +20,6 @@ module.exports = (grunt) ->
     
     yeoman: appConfig
     
-    jekyll:
-      dev:
-        options:
-          config: "_config.yml"
-          dest: ".tmp/docs"
-
-      dist:
-        options:
-          config: "_config.yml"
-          dest: "<%= yeoman.dist %>/docs"
 
     'string-replace':
       version:
@@ -255,43 +245,6 @@ module.exports = (grunt) ->
           debugInfo: true
           sassDir: "<%= yeoman.app %>/docs/styles/scss"
           cssDir: ".tmp/docs/styles"
-
-      # Old tasks from grunt sass
-      # dist:
-      #   files: [
-      #     {
-      #       expand: true
-      #       cwd: "<%= config.app %>/styles"
-      #       src: ["*.scss"]
-      #       dest: ".tmp/styles"
-      #       ext: ".css"
-      #     }
-      #     {
-      #       expand: true
-      #       cwd: "<%= config.app %>/docs/styles/scss"
-      #       src: ["*.scss"]
-      #       dest: ".tmp/docs/styles"
-      #       ext: ".css"
-      #     }
-      #   ]
-      # server:
-      #   files: [
-      #     {
-      #       expand: true
-      #       cwd: "<%= config.app %>/styles"
-      #       src: ["*.scss"]
-      #       dest: ".tmp/styles"
-      #       ext: ".css"
-      #     }
-      #     {
-      #       expand: true
-      #       cwd: "<%= config.app %>/docs/styles/scss"
-      #       src: ["*.scss"]
-      #       dest: ".tmp/docs/styles"
-      #       ext: ".css"
-      #     }
-      #   ]
-
     
     # Renames files for browser caching purposes
     filerev:
@@ -341,32 +294,6 @@ module.exports = (grunt) ->
           "<%= yeoman.dist %>/docs"
         ]
 
-    
-    # The following *-min tasks will produce minified files in the dist folder
-    # By default, your `index.html`'s <!-- Usemin block --> will take care of
-    # minification. These next options are pre-configured if you do not wish
-    # to use the Usemin blocks.
-    # cssmin: {
-    #   dist: {
-    #     files: {
-    #       '<%= yeoman.dist %>/styles/main.css': [
-    #         '.tmp/styles/{,*/}*.css'
-    #       ]
-    #     }
-    #   }
-    # },
-    # uglify: {
-    #   dist: {
-    #     files: {
-    #       '<%= yeoman.dist %>/scripts/scripts.js': [
-    #         '<%= yeoman.dist %>/scripts/scripts.js'
-    #       ]
-    #     }
-    #   }
-    # },
-    # concat: {
-    #   dist: {}
-    # },
     imagemin:
       dist:
         files: [
@@ -525,8 +452,6 @@ module.exports = (grunt) ->
     grunt.task.run [
       "clean:server"
       "markdown"
-      # "jekyll:dev"
-      #"wiredep"
       "concurrent:server"
       "autoprefixer"
       "connect:livereload"
@@ -546,11 +471,10 @@ module.exports = (grunt) ->
     "connect:test"
     "karma"
   ]
+
   grunt.registerTask "build", [
     "clean:dist"
     "markdown"
-    # "jekyll:  dist"
-    # "wiredep"
     "useminPrepare"
     "concurrent:dist"
     "autoprefixer"
@@ -571,4 +495,3 @@ module.exports = (grunt) ->
     "build"
     "gh-pages"
   ]
-  return

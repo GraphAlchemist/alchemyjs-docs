@@ -106,7 +106,7 @@ The following data source of Alchemy.js contributors would, by default, result i
 
 ### Default Visualization 
 
-![Contrib Default Styles](img/graphstyling1.png)    
+![Contrib Default Styles](../docs/img/graphstyling1.png)    
 
 ### Overriding Default Styles
 
@@ -148,7 +148,7 @@ var conf = {
 alchemy.begin(conf)
 ~~~
 
-![Wild Graph Styles](img/graphstyling2.png)
+![Wild Graph Styles](../docs/img/graphstyling2.png)
 
 ###Styling with CSS
 Styling through CSS tends to be inflexible, as it's not related to the data in any way.  However, some people may want to use an obscure feature offered by SVG/CSS, and we've made sure that that is easy to do. The svg elements of the nodes and edges receive classes that correspond to the types defined in the configuration options `edgeTypes` and `nodeTypes`. To create the same graph with css you can assign css styles based on those classes.  Based on our data and this example we can use this css to generate the graph that follows:
