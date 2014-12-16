@@ -23,7 +23,7 @@ angular.module('navigation', ['ui.bootstrap'])
             [
                 { name: 'Home', href: '/'},
                 { name: 'Examples', href: '/examples'},
-                { name: 'Documents', href: '/docs'} 
+                { name: 'Documentation', href: '/docs'} 
             ] 
             $scope.active($location.path())
             $scope.hidden = false

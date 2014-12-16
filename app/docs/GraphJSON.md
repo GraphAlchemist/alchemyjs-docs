@@ -1,13 +1,10 @@
----
-position: 3
-title: GraphJSON
----
 
-# GraphJSON: Overview
+
+## GraphJSON
 
 Alchemy.js takes a simple data format called GraphJSON.  GraphJSON is similiar to GeoJSON in many ways, and is a standardized way to represent connected data in applications.  In the future, Alchemy.js will use GraphJSON for the transfer and storage of attributes that will allow for more robust visual representations of the underlying graph data.  For now, GraphJSON serves as a lightweight and flexible representation of graph data, easily consumed locally or over the web.
 
-## The Format
+### The Format
 GraphJSON is a JSON object that contains two objects, **nodes** and **edges**:
 
 ~~~json
@@ -20,16 +17,16 @@ GraphJSON is a JSON object that contains two objects, **nodes** and **edges**:
 
 The **nodes** and **edges** objects are arrays of the individual nodes and edges that will be represented in the Graph visualization.   
 
-## Nodes and Edges
+### Nodes and Edges
 The only requirement for node objects is that they receive an **id** key that is unique (in the scope of the GraphJSON). The only requirement for edge objects is that they receive a **source** and **target** key that correspond to the source and target nodes. If there are multiple edges with identical source and targets, those edges MUST have a unique id.
 
-## Features
+### Features
 Alchemy.js has a number of features that rely on the underlying data.  Most of the below features are supported by the example GraphJSON that follows.
 
 ### Captions  
 Captions are the text that displays in the graph visualization.  By default, the captions will display on search active, on node hover, and when filtering.  In the configuration, [nodeCaption](#nodecaption) defaults to "caption" which means that Alchemy.js will look for a "caption" key on each node.
 
-### Clustering 
+### Dynamic Clustering    
 Clustering can be enabled in the configuration by setting [cluster](#cluster) to `true`.  Alchemy.js will then look for a "cluster" key on the nodes, which will enable a clustering algorithm that colors and positions to nodes.  This is especially useful for social network analysis and any form of exploratory data analysis.
 
 ### Defining Root Nodes
@@ -59,13 +56,15 @@ Node and edge types are used for a number of tasks, including styling and filter
 
 while **edgeTypes** might look like this 
 
-~~~"edgeTypes": {"caption": ["ACTED_IN", "DIRECTED", "NOMINATED", etc.]}~~~.
+~~~
+"edgeTypes": {"caption": ["ACTED_IN", "DIRECTED", "NOMINATED", etc.]}
+~~~
 
 To include nodeTypes and edgeTypes to your application, add them into your script tag where you defined your dataset. 
 
 *Note*: Attributes in the GraphJSON can serve multiple purposes.  **caption** on the edges is used for categorizing nodes as well as the text that will display on hover interactions.
 
-## Sample GraphJSON
+### Sample GraphJSON
 Below is sample GraphJSON which contains all of the movies, awards, and other people that Charlize Theron is connected to.
 
 ~~~json

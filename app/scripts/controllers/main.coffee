@@ -47,39 +47,7 @@ angular.module('site')
         return
         
 
-angular.module('navigation', ['ui.bootstrap'])
-    .controller 'navCtrl', ($scope, $location, $route, $http) ->
-        $scope.$on '$routeChangeSuccess', ->
-            if $location.path() is '/examples/FullApp'
-                $scope.showNav = "hidden"
-            else
-                $scope.showNav = ""
 
-        $scope.init = ->
-            # $scope.getGHData()
-            $scope.links =   
-            [
-                { name: 'Home', href: '/'},
-                { name: 'Examples', href: '/examples'},
-                # { name: 'Tutorial', tooltip:"Coming Soon!"} 
-            ] 
-            $scope.active($location.path())
-            $scope.hidden = false
-
-        $scope.active = (navTab) ->
-            $location.hash("")
-            for link in $scope.links
-                if navTab is link.href
-                    link.state= "active"
-                    $location.path(link.href)
-                else 
-                    link.state= ""
-        
-        $scope.socialToggle = ->
-            if $scope.hidden is false
-                $scope.hidden = true
-            else if $scope.hidden is true
-                $scope.hidden = false
 
 
 angular.module('alchemyExamples', ['ngRoute'])
@@ -162,3 +130,9 @@ angular.module('featCarousel', ['ui.bootstrap'])
             {image: "images/features/clusterHighlight_team.png", text: "Cluster nodes for easy identification of patterns"},
             {image: "images/features/filters&Stats_movies.png", text: "Network statistic API endpoints to use in the rest of your app"}
         ]
+
+angular.module("orderedList", [])
+    .filter 'keys', ()->
+        (input)->
+            return [] unless input
+            return Object.keys input

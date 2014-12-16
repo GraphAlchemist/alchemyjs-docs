@@ -1,9 +1,6 @@
----
-position: 4
-title: Edge Methods
----
 
-# Edge Methods
+
+### Edge Methods
 
 When **edge** data is added to Alchemy through GraphJSON from the data source, or through the API, Alchemy adds methods to the nodes that can be used universally.  These methods are then interpreted by the SVG and WebGL Renders to apply the commands appropriately.
 
@@ -112,4 +109,4 @@ Returns true or false based on whether both the source and target node are activ
 
 Deletes the edge from Alchemy.  The edge is removed from both the edge data and the rendered visual.  It cannot be readded without reloading the data or creating it manually with alchemy.create.edges() 
 
-_______
+
