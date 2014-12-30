@@ -26,13 +26,14 @@
             curvedEdges: true,
             nodeStyle: {
               "all": {
-                "color": "#A901DB",
-                "borderColor": "#A901DB",
+                "color": function(){return "rgba(169,1,219,"+ (Math.random() + 0.2) + ")"},
+                "borderColor": function(){ return "rgba(202,35," + (Math.floor(Math.random() * 1000) % 255) + ",1)"},
               }
             },
             edgeStyle: {
               "all": {
                 "color": "#A901DB",
+                "opacity": 1
               }
             },
         };
@@ -59,10 +60,8 @@
 
           nodeStyle: {
             "all": {
-              // "color": "#A901DB",
               "color": function(){return "rgba(169,1,219,"+ (Math.random() + 0.2) + ")"},
               "borderColor": function(){ return "rgba(202,35," + (Math.floor(Math.random() * 1000) % 255) + ",1)"},
-              // "borderColor": "#CA23FD",
             }
           },
           edgeStyle: {
