@@ -92,7 +92,10 @@ angular.module('alchemyExamples', ['ngRoute'])
                     name: 'Communication Data'
                     src: 'views/examples/irc.html'
                     desc: "Seven minutes of communication between members of the AngularJS, EmberJS, and KnockoutJS IRC channels."
-
+                'Curved_Edges':
+                    name: 'Curved Edges'
+                    src: 'views/examples/Curved_Edges.html'
+                    desc: "Use curved edges to customize your layout."
                 'Philosophy_Example':
                     name: 'Philosophers\' Relatedness'
                     src: 'views/examples/Philosophy_Example.html'
@@ -100,7 +103,7 @@ angular.module('alchemyExamples', ['ngRoute'])
                     desc: 'Graph of a Wikipedia relatedness metric among 5 Presocratic Philosophers'
 
             $scope.orderedExamples = ['Basic_Graph', 'Embedded_Graph', 'Clustering',
-                                      'Custom_Styling','Advanced_Styling', 'IRC', 'Philosophy_Example',
+                                      'Custom_Styling','Advanced_Styling', 'IRC','Curved_Edges', 'Philosophy_Example',
                                       'Full_Application'
                                   ]
 

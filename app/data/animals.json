@@ -1,0 +1,1236 @@
+{
+  "nodes": [
+    {
+      "id": "Abditomys latidens",
+      "type": "species",
+      "caption": "Abditomys latidens"
+    },
+    {
+      "id": "Mammalia",
+      "type": "class",
+      "caption": "Mammalia"
+    },
+    {
+      "id": "Muridae",
+      "type": "family",
+      "caption": "Muridae"
+    },
+    {
+      "id": "Rodentia",
+      "type": "order",
+      "caption": "Rodentia"
+    },
+    {
+      "id": null,
+      "type": null,
+      "caption": null
+    },
+    {
+      "id": "Abeomelomys sevia",
+      "type": "species",
+      "caption": "Abeomelomys sevia"
+    },
+    {
+      "id": "Abrawayaomys ruschii",
+      "type": "species",
+      "caption": "Abrawayaomys ruschii"
+    },
+    {
+      "id": "Cricetidae",
+      "type": "family",
+      "caption": "Cricetidae"
+    },
+    {
+      "id": "Abrocoma bennettii",
+      "type": "species",
+      "caption": "Abrocoma bennettii"
+    },
+    {
+      "id": "Abrocomidae",
+      "type": "family",
+      "caption": "Abrocomidae"
+    },
+    {
+      "id": "Abrocoma boliviensis",
+      "type": "species",
+      "caption": "Abrocoma boliviensis"
+    },
+    {
+      "id": "Abrocoma cinerea",
+      "type": "species",
+      "caption": "Abrocoma cinerea"
+    },
+    {
+      "id": "Abrothrix andinus",
+      "type": "species",
+      "caption": "Abrothrix andinus"
+    },
+    {
+      "id": "Abrothrix illuteus",
+      "type": "species",
+      "caption": "Abrothrix illuteus"
+    },
+    {
+      "id": "Abrothrix jelskii",
+      "type": "species",
+      "caption": "Abrothrix jelskii"
+    },
+    {
+      "id": "Abrothrix lanosus",
+      "type": "species",
+      "caption": "Abrothrix lanosus"
+    },
+    {
+      "id": "Acanthurus coeruleus",
+      "type": "species",
+      "caption": "Acanthurus coeruleus"
+    },
+    {
+      "id": "Actinopterygii",
+      "type": "class",
+      "caption": "Actinopterygii"
+    },
+    {
+      "id": "Acanthuridae",
+      "type": "family",
+      "caption": "Acanthuridae"
+    },
+    {
+      "id": "Perciformes",
+      "type": "order",
+      "caption": "Perciformes"
+    },
+    {
+      "id": "Acanthurus triostegus",
+      "type": "species",
+      "caption": "Acanthurus triostegus"
+    },
+    {
+      "id": "Acipenser fulvescens",
+      "type": "species",
+      "caption": "Acipenser fulvescens"
+    },
+    {
+      "id": "Acipenseridae",
+      "type": "family",
+      "caption": "Acipenseridae"
+    },
+    {
+      "id": "Acipenseriformes",
+      "type": "order",
+      "caption": "Acipenseriformes"
+    },
+    {
+      "id": "Acipenser transmontanus",
+      "type": "species",
+      "caption": "Acipenser transmontanus"
+    },
+    {
+      "id": "Albula vulpes",
+      "type": "species",
+      "caption": "Albula vulpes"
+    },
+    {
+      "id": "Albulidae",
+      "type": "family",
+      "caption": "Albulidae"
+    },
+    {
+      "id": "Albuliformes",
+      "type": "order",
+      "caption": "Albuliformes"
+    },
+    {
+      "id": "Alosa aestivalis",
+      "type": "species",
+      "caption": "Alosa aestivalis"
+    },
+    {
+      "id": "Clupeidae",
+      "type": "family",
+      "caption": "Clupeidae"
+    },
+    {
+      "id": "Clupeiformes",
+      "type": "order",
+      "caption": "Clupeiformes"
+    },
+    {
+      "id": "Alosa pseudoharengus",
+      "type": "species",
+      "caption": "Alosa pseudoharengus"
+    },
+    {
+      "id": "Alosa sapidissima",
+      "type": "species",
+      "caption": "Alosa sapidissima"
+    },
+    {
+      "id": "Ambloplites rupestris",
+      "type": "species",
+      "caption": "Ambloplites rupestris"
+    },
+    {
+      "id": "Centrarchidae",
+      "type": "family",
+      "caption": "Centrarchidae"
+    },
+    {
+      "id": "Amblyopsis rosae",
+      "type": "species",
+      "caption": "Amblyopsis rosae"
+    },
+    {
+      "id": "Amblyopsidae",
+      "type": "family",
+      "caption": "Amblyopsidae"
+    },
+    {
+      "id": "Percopsiformes",
+      "type": "order",
+      "caption": "Percopsiformes"
+    },
+    {
+      "id": "Aetobatus narinari",
+      "type": "species",
+      "caption": "Aetobatus narinari"
+    },
+    {
+      "id": "Chondrichthyes",
+      "type": "class",
+      "caption": "Chondrichthyes"
+    },
+    {
+      "id": "Myliobatidae",
+      "type": "family",
+      "caption": "Myliobatidae"
+    },
+    {
+      "id": "Rajiformes",
+      "type": "order",
+      "caption": "Rajiformes"
+    },
+    {
+      "id": "Alopias vulpinus",
+      "type": "species",
+      "caption": "Alopias vulpinus"
+    },
+    {
+      "id": "Alopiidae",
+      "type": "family",
+      "caption": "Alopiidae"
+    },
+    {
+      "id": "Lamniformes",
+      "type": "order",
+      "caption": "Lamniformes"
+    },
+    {
+      "id": "Carcharhinus albimarginatus",
+      "type": "species",
+      "caption": "Carcharhinus albimarginatus"
+    },
+    {
+      "id": "Carcharhinidae",
+      "type": "family",
+      "caption": "Carcharhinidae"
+    },
+    {
+      "id": "Carcharhiniformes",
+      "type": "order",
+      "caption": "Carcharhiniformes"
+    },
+    {
+      "id": "Carcharhinus amblyrhynchos",
+      "type": "species",
+      "caption": "Carcharhinus amblyrhynchos"
+    },
+    {
+      "id": "Carcharhinus falciformis",
+      "type": "species",
+      "caption": "Carcharhinus falciformis"
+    },
+    {
+      "id": "Carcharhinus leucas",
+      "type": "species",
+      "caption": "Carcharhinus leucas"
+    },
+    {
+      "id": "Carcharhinus limbatus",
+      "type": "species",
+      "caption": "Carcharhinus limbatus"
+    },
+    {
+      "id": "Carcharhinus plumbeus",
+      "type": "species",
+      "caption": "Carcharhinus plumbeus"
+    },
+    {
+      "id": "Carcharias taurus",
+      "type": "species",
+      "caption": "Carcharias taurus"
+    },
+    {
+      "id": "Odontaspididae",
+      "type": "family",
+      "caption": "Odontaspididae"
+    },
+    {
+      "id": "Carcharodon carcharias",
+      "type": "species",
+      "caption": "Carcharodon carcharias"
+    },
+    {
+      "id": "Lamnidae",
+      "type": "family",
+      "caption": "Lamnidae"
+    },
+    {
+      "id": "Acanthorhynchus tenuirostris",
+      "type": "species",
+      "caption": "Acanthorhynchus tenuirostris"
+    },
+    {
+      "id": "Aves",
+      "type": "class",
+      "caption": "Aves"
+    },
+    {
+      "id": "Meliphagidae",
+      "type": "family",
+      "caption": "Meliphagidae"
+    },
+    {
+      "id": "Passeriformes",
+      "type": "order",
+      "caption": "Passeriformes"
+    },
+    {
+      "id": "Accipiter cooperii",
+      "type": "species",
+      "caption": "Accipiter cooperii"
+    },
+    {
+      "id": "Accipitridae",
+      "type": "family",
+      "caption": "Accipitridae"
+    },
+    {
+      "id": "Falconiformes",
+      "type": "order",
+      "caption": "Falconiformes"
+    },
+    {
+      "id": "Accipiter gentilis",
+      "type": "species",
+      "caption": "Accipiter gentilis"
+    },
+    {
+      "id": "Accipiter nisus",
+      "type": "species",
+      "caption": "Accipiter nisus"
+    },
+    {
+      "id": "Accipiter striatus",
+      "type": "species",
+      "caption": "Accipiter striatus"
+    },
+    {
+      "id": "Acridotheres tristis",
+      "type": "species",
+      "caption": "Acridotheres tristis"
+    },
+    {
+      "id": "Sturnidae",
+      "type": "family",
+      "caption": "Sturnidae"
+    },
+    {
+      "id": "Acrocephalus arundinaceus",
+      "type": "species",
+      "caption": "Acrocephalus arundinaceus"
+    },
+    {
+      "id": "Sylviidae",
+      "type": "family",
+      "caption": "Sylviidae"
+    },
+    {
+      "id": "Actitis hypoleucos",
+      "type": "species",
+      "caption": "Actitis hypoleucos"
+    },
+    {
+      "id": "Scolopacidae",
+      "type": "family",
+      "caption": "Scolopacidae"
+    },
+    {
+      "id": "Charadriiformes",
+      "type": "order",
+      "caption": "Charadriiformes"
+    },
+    {
+      "id": "Actitis macularius",
+      "type": "species",
+      "caption": "Actitis macularius"
+    },
+    {
+      "id": "Aechmophorus occidentalis",
+      "type": "species",
+      "caption": "Aechmophorus occidentalis"
+    },
+    {
+      "id": "Podicipedidae",
+      "type": "family",
+      "caption": "Podicipedidae"
+    },
+    {
+      "id": "Podicipediformes",
+      "type": "order",
+      "caption": "Podicipediformes"
+    },
+    {
+      "id": "Acris crepitans",
+      "type": "species",
+      "caption": "Acris crepitans"
+    },
+    {
+      "id": "Amphibia",
+      "type": "class",
+      "caption": "Amphibia"
+    },
+    {
+      "id": "Hylidae",
+      "type": "family",
+      "caption": "Hylidae"
+    },
+    {
+      "id": "Acris gryllus",
+      "type": "species",
+      "caption": "Acris gryllus"
+    },
+    {
+      "id": "Agalychnis callidryas",
+      "type": "species",
+      "caption": "Agalychnis callidryas"
+    },
+    {
+      "id": "Ambystoma annulatum",
+      "type": "species",
+      "caption": "Ambystoma annulatum"
+    },
+    {
+      "id": "Ambystomatidae",
+      "type": "family",
+      "caption": "Ambystomatidae"
+    },
+    {
+      "id": "Ambystoma californiense",
+      "type": "species",
+      "caption": "Ambystoma californiense"
+    },
+    {
+      "id": "Ambystoma cingulatum",
+      "type": "species",
+      "caption": "Ambystoma cingulatum"
+    },
+    {
+      "id": "Ambystoma gracile",
+      "type": "species",
+      "caption": "Ambystoma gracile"
+    },
+    {
+      "id": "Ambystoma jeffersonianum",
+      "type": "species",
+      "caption": "Ambystoma jeffersonianum"
+    },
+    {
+      "id": "Ambystoma laterale",
+      "type": "species",
+      "caption": "Ambystoma laterale"
+    },
+    {
+      "id": "Ambystoma maculatum",
+      "type": "species",
+      "caption": "Ambystoma maculatum"
+    },
+    {
+      "id": "Acrochordus arafurae",
+      "type": "species",
+      "caption": "Acrochordus arafurae"
+    },
+    {
+      "id": "Reptilia",
+      "type": "class",
+      "caption": "Reptilia"
+    },
+    {
+      "id": "Acrochordidae",
+      "type": "family",
+      "caption": "Acrochordidae"
+    },
+    {
+      "id": "Squamata",
+      "type": "order",
+      "caption": "Squamata"
+    },
+    {
+      "id": "Acrochordus granulatus",
+      "type": "species",
+      "caption": "Acrochordus granulatus"
+    },
+    {
+      "id": "Acrochordus javanicus",
+      "type": "species",
+      "caption": "Acrochordus javanicus"
+    },
+    {
+      "id": "Agama agama",
+      "type": "species",
+      "caption": "Agama agama"
+    },
+    {
+      "id": "Agamidae",
+      "type": "family",
+      "caption": "Agamidae"
+    },
+    {
+      "id": "Agkistrodon contortrix",
+      "type": "species",
+      "caption": "Agkistrodon contortrix"
+    },
+    {
+      "id": "Viperidae",
+      "type": "family",
+      "caption": "Viperidae"
+    },
+    {
+      "id": "Agkistrodon piscivorus",
+      "type": "species",
+      "caption": "Agkistrodon piscivorus"
+    },
+    {
+      "id": "Alligator mississippiensis",
+      "type": "species",
+      "caption": "Alligator mississippiensis"
+    },
+    {
+      "id": "Crocodylidae",
+      "type": "family",
+      "caption": "Crocodylidae"
+    },
+    {
+      "id": "Crocodylia",
+      "type": "order",
+      "caption": "Crocodylia"
+    },
+    {
+      "id": "Alligator sinensis",
+      "type": "species",
+      "caption": "Alligator sinensis"
+    },
+    {
+      "id": "Amblyrhynchus cristatus",
+      "type": "species",
+      "caption": "Amblyrhynchus cristatus"
+    },
+    {
+      "id": "Iguanidae",
+      "type": "family",
+      "caption": "Iguanidae"
+    },
+    {
+      "id": "Ameiva ameiva",
+      "type": "species",
+      "caption": "Ameiva ameiva"
+    },
+    {
+      "id": "Teiidae",
+      "type": "family",
+      "caption": "Teiidae"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Abditomys latidens",
+      "target": "Mammalia"
+    },
+    {
+      "source": "Mammalia",
+      "target": "Muridae"
+    },
+    {
+      "source": "Muridae",
+      "target": "Rodentia"
+    },
+    {
+      "source": "Abeomelomys sevia",
+      "target": "Mammalia"
+    },
+    {
+      "source": "Mammalia",
+      "target": "Muridae"
+    },
+    {
+      "source": "Muridae",
+      "target": "Rodentia"
+    },
+    {
+      "source": "Abrawayaomys ruschii",
+      "target": "Mammalia"
+    },
+    {
+      "source": "Mammalia",
+      "target": "Cricetidae"
+    },
+    {
+      "source": "Cricetidae",
+      "target": "Rodentia"
+    },
+    {
+      "source": "Abrocoma bennettii",
+      "target": "Mammalia"
+    },
+    {
+      "source": "Mammalia",
+      "target": "Abrocomidae"
+    },
+    {
+      "source": "Abrocomidae",
+      "target": "Rodentia"
+    },
+    {
+      "source": "Abrocoma boliviensis",
+      "target": "Mammalia"
+    },
+    {
+      "source": "Mammalia",
+      "target": "Abrocomidae"
+    },
+    {
+      "source": "Abrocomidae",
+      "target": "Rodentia"
+    },
+    {
+      "source": "Abrocoma cinerea",
+      "target": "Mammalia"
+    },
+    {
+      "source": "Mammalia",
+      "target": "Abrocomidae"
+    },
+    {
+      "source": "Abrocomidae",
+      "target": "Rodentia"
+    },
+    {
+      "source": "Abrothrix andinus",
+      "target": "Mammalia"
+    },
+    {
+      "source": "Mammalia",
+      "target": "Cricetidae"
+    },
+    {
+      "source": "Cricetidae",
+      "target": "Rodentia"
+    },
+    {
+      "source": "Abrothrix illuteus",
+      "target": "Mammalia"
+    },
+    {
+      "source": "Mammalia",
+      "target": "Cricetidae"
+    },
+    {
+      "source": "Cricetidae",
+      "target": "Rodentia"
+    },
+    {
+      "source": "Abrothrix jelskii",
+      "target": "Mammalia"
+    },
+    {
+      "source": "Mammalia",
+      "target": "Cricetidae"
+    },
+    {
+      "source": "Cricetidae",
+      "target": "Rodentia"
+    },
+    {
+      "source": "Abrothrix lanosus",
+      "target": "Mammalia"
+    },
+    {
+      "source": "Mammalia",
+      "target": "Cricetidae"
+    },
+    {
+      "source": "Cricetidae",
+      "target": "Rodentia"
+    },
+    {
+      "source": "Acanthurus coeruleus",
+      "target": "Actinopterygii"
+    },
+    {
+      "source": "Actinopterygii",
+      "target": "Acanthuridae"
+    },
+    {
+      "source": "Acanthuridae",
+      "target": "Perciformes"
+    },
+    {
+      "source": "Acanthurus triostegus",
+      "target": "Actinopterygii"
+    },
+    {
+      "source": "Actinopterygii",
+      "target": "Acanthuridae"
+    },
+    {
+      "source": "Acanthuridae",
+      "target": "Perciformes"
+    },
+    {
+      "source": "Acipenser fulvescens",
+      "target": "Actinopterygii"
+    },
+    {
+      "source": "Actinopterygii",
+      "target": "Acipenseridae"
+    },
+    {
+      "source": "Acipenseridae",
+      "target": "Acipenseriformes"
+    },
+    {
+      "source": "Acipenser transmontanus",
+      "target": "Actinopterygii"
+    },
+    {
+      "source": "Actinopterygii",
+      "target": "Acipenseridae"
+    },
+    {
+      "source": "Acipenseridae",
+      "target": "Acipenseriformes"
+    },
+    {
+      "source": "Albula vulpes",
+      "target": "Actinopterygii"
+    },
+    {
+      "source": "Actinopterygii",
+      "target": "Albulidae"
+    },
+    {
+      "source": "Albulidae",
+      "target": "Albuliformes"
+    },
+    {
+      "source": "Alosa aestivalis",
+      "target": "Actinopterygii"
+    },
+    {
+      "source": "Actinopterygii",
+      "target": "Clupeidae"
+    },
+    {
+      "source": "Clupeidae",
+      "target": "Clupeiformes"
+    },
+    {
+      "source": "Alosa pseudoharengus",
+      "target": "Actinopterygii"
+    },
+    {
+      "source": "Actinopterygii",
+      "target": "Clupeidae"
+    },
+    {
+      "source": "Clupeidae",
+      "target": "Clupeiformes"
+    },
+    {
+      "source": "Alosa sapidissima",
+      "target": "Actinopterygii"
+    },
+    {
+      "source": "Actinopterygii",
+      "target": "Clupeidae"
+    },
+    {
+      "source": "Clupeidae",
+      "target": "Clupeiformes"
+    },
+    {
+      "source": "Ambloplites rupestris",
+      "target": "Actinopterygii"
+    },
+    {
+      "source": "Actinopterygii",
+      "target": "Centrarchidae"
+    },
+    {
+      "source": "Centrarchidae",
+      "target": "Perciformes"
+    },
+    {
+      "source": "Amblyopsis rosae",
+      "target": "Actinopterygii"
+    },
+    {
+      "source": "Actinopterygii",
+      "target": "Amblyopsidae"
+    },
+    {
+      "source": "Amblyopsidae",
+      "target": "Percopsiformes"
+    },
+    {
+      "source": "Aetobatus narinari",
+      "target": "Chondrichthyes"
+    },
+    {
+      "source": "Chondrichthyes",
+      "target": "Myliobatidae"
+    },
+    {
+      "source": "Myliobatidae",
+      "target": "Rajiformes"
+    },
+    {
+      "source": "Alopias vulpinus",
+      "target": "Chondrichthyes"
+    },
+    {
+      "source": "Chondrichthyes",
+      "target": "Alopiidae"
+    },
+    {
+      "source": "Alopiidae",
+      "target": "Lamniformes"
+    },
+    {
+      "source": "Carcharhinus albimarginatus",
+      "target": "Chondrichthyes"
+    },
+    {
+      "source": "Chondrichthyes",
+      "target": "Carcharhinidae"
+    },
+    {
+      "source": "Carcharhinidae",
+      "target": "Carcharhiniformes"
+    },
+    {
+      "source": "Carcharhinus amblyrhynchos",
+      "target": "Chondrichthyes"
+    },
+    {
+      "source": "Chondrichthyes",
+      "target": "Carcharhinidae"
+    },
+    {
+      "source": "Carcharhinidae",
+      "target": "Carcharhiniformes"
+    },
+    {
+      "source": "Carcharhinus falciformis",
+      "target": "Chondrichthyes"
+    },
+    {
+      "source": "Chondrichthyes",
+      "target": "Carcharhinidae"
+    },
+    {
+      "source": "Carcharhinidae",
+      "target": "Carcharhiniformes"
+    },
+    {
+      "source": "Carcharhinus leucas",
+      "target": "Chondrichthyes"
+    },
+    {
+      "source": "Chondrichthyes",
+      "target": "Carcharhinidae"
+    },
+    {
+      "source": "Carcharhinidae",
+      "target": "Carcharhiniformes"
+    },
+    {
+      "source": "Carcharhinus limbatus",
+      "target": "Chondrichthyes"
+    },
+    {
+      "source": "Chondrichthyes",
+      "target": "Carcharhinidae"
+    },
+    {
+      "source": "Carcharhinidae",
+      "target": "Carcharhiniformes"
+    },
+    {
+      "source": "Carcharhinus plumbeus",
+      "target": "Chondrichthyes"
+    },
+    {
+      "source": "Chondrichthyes",
+      "target": "Carcharhinidae"
+    },
+    {
+      "source": "Carcharhinidae",
+      "target": "Carcharhiniformes"
+    },
+    {
+      "source": "Carcharias taurus",
+      "target": "Chondrichthyes"
+    },
+    {
+      "source": "Chondrichthyes",
+      "target": "Odontaspididae"
+    },
+    {
+      "source": "Odontaspididae",
+      "target": "Lamniformes"
+    },
+    {
+      "source": "Carcharodon carcharias",
+      "target": "Chondrichthyes"
+    },
+    {
+      "source": "Chondrichthyes",
+      "target": "Lamnidae"
+    },
+    {
+      "source": "Lamnidae",
+      "target": "Lamniformes"
+    },
+    {
+      "source": "Acanthorhynchus tenuirostris",
+      "target": "Aves"
+    },
+    {
+      "source": "Aves",
+      "target": "Meliphagidae"
+    },
+    {
+      "source": "Meliphagidae",
+      "target": "Passeriformes"
+    },
+    {
+      "source": "Accipiter cooperii",
+      "target": "Aves"
+    },
+    {
+      "source": "Aves",
+      "target": "Accipitridae"
+    },
+    {
+      "source": "Accipitridae",
+      "target": "Falconiformes"
+    },
+    {
+      "source": "Accipiter gentilis",
+      "target": "Aves"
+    },
+    {
+      "source": "Aves",
+      "target": "Accipitridae"
+    },
+    {
+      "source": "Accipitridae",
+      "target": "Falconiformes"
+    },
+    {
+      "source": "Accipiter nisus",
+      "target": "Aves"
+    },
+    {
+      "source": "Aves",
+      "target": "Accipitridae"
+    },
+    {
+      "source": "Accipitridae",
+      "target": "Falconiformes"
+    },
+    {
+      "source": "Accipiter striatus",
+      "target": "Aves"
+    },
+    {
+      "source": "Aves",
+      "target": "Accipitridae"
+    },
+    {
+      "source": "Accipitridae",
+      "target": "Falconiformes"
+    },
+    {
+      "source": "Acridotheres tristis",
+      "target": "Aves"
+    },
+    {
+      "source": "Aves",
+      "target": "Sturnidae"
+    },
+    {
+      "source": "Sturnidae",
+      "target": "Passeriformes"
+    },
+    {
+      "source": "Acrocephalus arundinaceus",
+      "target": "Aves"
+    },
+    {
+      "source": "Aves",
+      "target": "Sylviidae"
+    },
+    {
+      "source": "Sylviidae",
+      "target": "Passeriformes"
+    },
+    {
+      "source": "Actitis hypoleucos",
+      "target": "Aves"
+    },
+    {
+      "source": "Aves",
+      "target": "Scolopacidae"
+    },
+    {
+      "source": "Scolopacidae",
+      "target": "Charadriiformes"
+    },
+    {
+      "source": "Actitis macularius",
+      "target": "Aves"
+    },
+    {
+      "source": "Aves",
+      "target": "Scolopacidae"
+    },
+    {
+      "source": "Scolopacidae",
+      "target": "Charadriiformes"
+    },
+    {
+      "source": "Aechmophorus occidentalis",
+      "target": "Aves"
+    },
+    {
+      "source": "Aves",
+      "target": "Podicipedidae"
+    },
+    {
+      "source": "Podicipedidae",
+      "target": "Podicipediformes"
+    },
+    {
+      "source": "Acris crepitans",
+      "target": "Amphibia"
+    },
+    {
+      "source": "Amphibia",
+      "target": "Hylidae"
+    },
+    {
+      "source": "Acris gryllus",
+      "target": "Amphibia"
+    },
+    {
+      "source": "Amphibia",
+      "target": "Hylidae"
+    },
+    {
+      "source": "Agalychnis callidryas",
+      "target": "Amphibia"
+    },
+    {
+      "source": "Amphibia",
+      "target": "Hylidae"
+    },
+    {
+      "source": "Ambystoma annulatum",
+      "target": "Amphibia"
+    },
+    {
+      "source": "Amphibia",
+      "target": "Ambystomatidae"
+    },
+    {
+      "source": "Ambystoma californiense",
+      "target": "Amphibia"
+    },
+    {
+      "source": "Amphibia",
+      "target": "Ambystomatidae"
+    },
+    {
+      "source": "Ambystoma cingulatum",
+      "target": "Amphibia"
+    },
+    {
+      "source": "Amphibia",
+      "target": "Ambystomatidae"
+    },
+    {
+      "source": "Ambystoma gracile",
+      "target": "Amphibia"
+    },
+    {
+      "source": "Amphibia",
+      "target": "Ambystomatidae"
+    },
+    {
+      "source": "Ambystoma jeffersonianum",
+      "target": "Amphibia"
+    },
+    {
+      "source": "Amphibia",
+      "target": "Ambystomatidae"
+    },
+    {
+      "source": "Ambystoma laterale",
+      "target": "Amphibia"
+    },
+    {
+      "source": "Amphibia",
+      "target": "Ambystomatidae"
+    },
+    {
+      "source": "Ambystoma maculatum",
+      "target": "Amphibia"
+    },
+    {
+      "source": "Amphibia",
+      "target": "Ambystomatidae"
+    },
+    {
+      "source": "Acrochordus arafurae",
+      "target": "Reptilia"
+    },
+    {
+      "source": "Reptilia",
+      "target": "Acrochordidae"
+    },
+    {
+      "source": "Acrochordidae",
+      "target": "Squamata"
+    },
+    {
+      "source": "Acrochordus granulatus",
+      "target": "Reptilia"
+    },
+    {
+      "source": "Reptilia",
+      "target": "Acrochordidae"
+    },
+    {
+      "source": "Acrochordidae",
+      "target": "Squamata"
+    },
+    {
+      "source": "Acrochordus javanicus",
+      "target": "Reptilia"
+    },
+    {
+      "source": "Reptilia",
+      "target": "Acrochordidae"
+    },
+    {
+      "source": "Acrochordidae",
+      "target": "Squamata"
+    },
+    {
+      "source": "Agama agama",
+      "target": "Reptilia"
+    },
+    {
+      "source": "Reptilia",
+      "target": "Agamidae"
+    },
+    {
+      "source": "Agamidae",
+      "target": "Squamata"
+    },
+    {
+      "source": "Agkistrodon contortrix",
+      "target": "Reptilia"
+    },
+    {
+      "source": "Reptilia",
+      "target": "Viperidae"
+    },
+    {
+      "source": "Viperidae",
+      "target": "Squamata"
+    },
+    {
+      "source": "Agkistrodon piscivorus",
+      "target": "Reptilia"
+    },
+    {
+      "source": "Reptilia",
+      "target": "Viperidae"
+    },
+    {
+      "source": "Viperidae",
+      "target": "Squamata"
+    },
+    {
+      "source": "Alligator mississippiensis",
+      "target": "Reptilia"
+    },
+    {
+      "source": "Reptilia",
+      "target": "Crocodylidae"
+    },
+    {
+      "source": "Crocodylidae",
+      "target": "Crocodylia"
+    },
+    {
+      "source": "Alligator sinensis",
+      "target": "Reptilia"
+    },
+    {
+      "source": "Reptilia",
+      "target": "Crocodylidae"
+    },
+    {
+      "source": "Crocodylidae",
+      "target": "Crocodylia"
+    },
+    {
+      "source": "Amblyrhynchus cristatus",
+      "target": "Reptilia"
+    },
+    {
+      "source": "Reptilia",
+      "target": "Iguanidae"
+    },
+    {
+      "source": "Iguanidae",
+      "target": "Squamata"
+    },
+    {
+      "source": "Ameiva ameiva",
+      "target": "Reptilia"
+    },
+    {
+      "source": "Reptilia",
+      "target": "Teiidae"
+    },
+    {
+      "source": "Teiidae",
+      "target": "Squamata"
+    }
+  ]
+}
