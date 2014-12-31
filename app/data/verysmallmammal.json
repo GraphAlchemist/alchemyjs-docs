@@ -1,0 +1,148 @@
+{
+	"nodes": [
+		{
+			"id": "Mammalia",
+			"type": "class",
+			"caption": "Mammalia"
+		},
+		{
+			"id": "Primates",
+			"type": "order",
+			"caption": "Primates"
+		},
+		{
+			"id": "Atelidae",
+			"type": "family",
+			"caption": "Atelidae"
+		},
+		{
+			"id": "Alouatta caraya",
+			"type": "species",
+			"caption": "Alouatta caraya"
+		},
+		{
+			"id": "Carnivora",
+			"type": "order",
+			"caption": "Carnivora"
+		},
+		{
+			"id": "Ursidae",
+			"type": "family",
+			"caption": "Ursidae"
+		},
+		{
+			"id": "Ailuropoda melanoleuca",
+			"type": "species",
+			"caption": "Ailuropoda melanoleuca"
+		},
+		{
+			"id": "Felidae",
+			"type": "family",
+			"caption": "Felidae"
+		},
+		{
+			"id": "Acinonyx jubatus",
+			"type": "species",
+			"caption": "Acinonyx jubatus"
+		},
+		{
+			"id": "Cercopithecidae",
+			"type": "family",
+			"caption": "Cercopithecidae"
+		},
+		{
+			"id": "Allenopithecus nigroviridis",
+			"type": "species",
+			"caption": "Allenopithecus nigroviridis"
+		},
+		{
+			"id": "Cheirogaleidae",
+			"type": "family",
+			"caption": "Cheirogaleidae"
+		},
+		{
+			"id": "Allocebus trichotis",
+			"type": "species",
+			"caption": "Allocebus trichotis"
+		},
+		{
+			"id": "Alouatta belzebul",
+			"type": "species",
+			"caption": "Alouatta belzebul"
+		}
+	],
+	"edges": [
+		{
+			"source": "Mammalia",
+			"target": "Primates"
+		},
+		{
+			"source": "Primates",
+			"target": "Atelidae"
+		},
+		{
+			"source": "Atelidae",
+			"target": "Alouatta caraya"
+		},
+		{
+			"source": "Mammalia",
+			"target": "Carnivora"
+		},
+		{
+			"source": "Carnivora",
+			"target": "Ursidae"
+		},
+		{
+			"source": "Ursidae",
+			"target": "Ailuropoda melanoleuca"
+		},
+		{
+			"source": "Mammalia",
+			"target": "Carnivora"
+		},
+		{
+			"source": "Carnivora",
+			"target": "Felidae"
+		},
+		{
+			"source": "Felidae",
+			"target": "Acinonyx jubatus"
+		},
+		{
+			"source": "Mammalia",
+			"target": "Primates"
+		},
+		{
+			"source": "Primates",
+			"target": "Cercopithecidae"
+		},
+		{
+			"source": "Cercopithecidae",
+			"target": "Allenopithecus nigroviridis"
+		},
+		{
+			"source": "Mammalia",
+			"target": "Primates"
+		},
+		{
+			"source": "Primates",
+			"target": "Cheirogaleidae"
+		},
+		{
+			"source": "Cheirogaleidae",
+			"target": "Allocebus trichotis"
+		},
+		{
+			"source": "Mammalia",
+			"target": "Primates"
+		},
+		{
+			"source": "Primates",
+			"target": "Atelidae"
+		},
+		{
+			"source": "Atelidae",
+			"target": "Alouatta belzebul"
+		}
+	]
+}
