@@ -1,0 +1,133 @@
+
+<div class="row">
+    <h2>Description</h2>
+    <p class="lead">{{current_example.desc}}</p>
+</div>
+
+<div id="graph-container" class="row">
+    <h3 class="filename">Graph</h3>
+    <div class="alchemy" id="alchemy" style="height:450px; width: 100%;"></div>
+</div>  
+
+<div class="row example-code">
+    <h3 class="filename">HTML and Configuration</h3>
+            <pre pretty-print>
+&lt;html&gt;
+&lt;head&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;http://cdn.graphalchemist.com/alchemy.min.css&quot;/&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div class=&quot;alchemy&quot; id=&quot;graph&quot;&gt;&lt;/div&gt;
+
+  &lt;script src=&quot;http://cdn.graphalchemist.com/alchemy.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script type=&quot;text/javascript&quot;&gt;
+        var config = {
+            dataSource: 'data/smallmammal.json',
+            forceLocked: false,
+            nodeTypes: {"type": ["class","species","family","order"]},
+            nodeStyle: {
+              "class":{
+                "color": "#008080",
+                "borderColor": "#008080"
+              },
+              "order": {
+                "color": "#ff7373",
+                "borderColor": "#ff7373"
+
+              },
+              "family": {
+                "color": "#008000",
+                "borderColor": "#008000"
+              },
+              "species": {
+                "color": "#800000",
+                "borderColor": "#800000"
+              },
+            edgeStyle: {
+              "all":{
+                "color": function(d){
+
+                  var len = d.getProperties().source.length;
+                  var pos = len % 2;
+
+                  var hex = [len,len,len];
+                  hex[pos] = len > 9 ? "FF" : "F";
+                  hex[2] = len > 9 ? "00" : len;
+
+                  var color = "#" + hex.join("");
+
+                  return color;
+                },
+                opacity:0.4
+              }
+            }
+            };
+
+        alchemy = new Alchemy(config)
+    &lt;/script&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+        </pre>
+</div>
+
+<div class="row example-code">
+  <h3 class="filename">graphJSON</h3>
+    <pre id="graphJSON">
+      <div code-panel></div>
+    </pre>
+</div>
+
+<script type="text/javascript">
+
+    var config = {
+          dataSource: 'data/smallmammal.json',
+          forceLocked: false,
+          nodeTypes: {"type": ["class","species","family","order"]},
+          nodeStyle: {
+            "class":{
+              "color": "#008080",
+              "borderColor": "#008080"
+            },
+            "order": {
+              "color": "#ff7373",
+              "borderColor": "#ff7373"
+
+            },
+            "family": {
+              "color": "#008000",
+              "borderColor": "#008000"
+            },
+            "species": {
+              "color": "#800000",
+              "borderColor": "#800000"
+            },
+          },
+          edgeStyle: {
+            "all":{
+              "color": function(d){
+
+                var len = d.getProperties().source.length;
+                var pos = len % 2;
+
+                var hex = [len,len,len];
+                hex[pos] = len > 9 ? "FF" : "F";
+                hex[2] = len > 9 ? "00" : len;
+
+                var color = "#" + hex.join("");
+
+                return color;
+              },
+              opacity:0.4
+            }
+          }
+
+          
+    };
+    
+    alchemy = new Alchemy(config)
+    
+
+    $('pre').addClass('prettyprint');
+      prettyPrint();
+
+</script>

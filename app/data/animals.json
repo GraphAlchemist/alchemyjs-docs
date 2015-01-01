@@ -1,7 +1,7 @@
 {
   "nodes": [
     {
-      "id": "Abditomys latidens",
+      "id": "Abditomys_latidens",
       "type": "species",
       "caption": "Abditomys latidens"
     },
@@ -21,17 +21,12 @@
       "caption": "Rodentia"
     },
     {
-      "id": null,
-      "type": null,
-      "caption": null
-    },
-    {
-      "id": "Abeomelomys sevia",
+      "id": "Abeomelomys_sevia",
       "type": "species",
       "caption": "Abeomelomys sevia"
     },
     {
-      "id": "Abrawayaomys ruschii",
+      "id": "Abrawayaomys_ruschii",
       "type": "species",
       "caption": "Abrawayaomys ruschii"
     },
@@ -41,7 +36,7 @@
       "caption": "Cricetidae"
     },
     {
-      "id": "Abrocoma bennettii",
+      "id": "Abrocoma_bennettii",
       "type": "species",
       "caption": "Abrocoma bennettii"
     },
@@ -51,37 +46,37 @@
       "caption": "Abrocomidae"
     },
     {
-      "id": "Abrocoma boliviensis",
+      "id": "Abrocoma_boliviensis",
       "type": "species",
       "caption": "Abrocoma boliviensis"
     },
     {
-      "id": "Abrocoma cinerea",
+      "id": "Abrocoma_cinerea",
       "type": "species",
       "caption": "Abrocoma cinerea"
     },
     {
-      "id": "Abrothrix andinus",
+      "id": "Abrothrix_andinus",
       "type": "species",
       "caption": "Abrothrix andinus"
     },
     {
-      "id": "Abrothrix illuteus",
+      "id": "Abrothrix_illuteus",
       "type": "species",
       "caption": "Abrothrix illuteus"
     },
     {
-      "id": "Abrothrix jelskii",
+      "id": "Abrothrix_jelskii",
       "type": "species",
       "caption": "Abrothrix jelskii"
     },
     {
-      "id": "Abrothrix lanosus",
+      "id": "Abrothrix_lanosus",
       "type": "species",
       "caption": "Abrothrix lanosus"
     },
     {
-      "id": "Acanthurus coeruleus",
+      "id": "Acanthurus_coeruleus",
       "type": "species",
       "caption": "Acanthurus coeruleus"
     },
@@ -101,12 +96,12 @@
       "caption": "Perciformes"
     },
     {
-      "id": "Acanthurus triostegus",
+      "id": "Acanthurus_triostegus",
       "type": "species",
       "caption": "Acanthurus triostegus"
     },
     {
-      "id": "Acipenser fulvescens",
+      "id": "Acipenser_fulvescens",
       "type": "species",
       "caption": "Acipenser fulvescens"
     },
@@ -121,12 +116,12 @@
       "caption": "Acipenseriformes"
     },
     {
-      "id": "Acipenser transmontanus",
+      "id": "Acipenser_transmontanus",
       "type": "species",
       "caption": "Acipenser transmontanus"
     },
     {
-      "id": "Albula vulpes",
+      "id": "Albula_vulpes",
       "type": "species",
       "caption": "Albula vulpes"
     },
@@ -141,7 +136,7 @@
       "caption": "Albuliformes"
     },
     {
-      "id": "Alosa aestivalis",
+      "id": "Alosa_aestivalis",
       "type": "species",
       "caption": "Alosa aestivalis"
     },
@@ -156,17 +151,17 @@
       "caption": "Clupeiformes"
     },
     {
-      "id": "Alosa pseudoharengus",
+      "id": "Alosa_pseudoharengus",
       "type": "species",
       "caption": "Alosa pseudoharengus"
     },
     {
-      "id": "Alosa sapidissima",
+      "id": "Alosa_sapidissima",
       "type": "species",
       "caption": "Alosa sapidissima"
     },
     {
-      "id": "Ambloplites rupestris",
+      "id": "Ambloplites_rupestris",
       "type": "species",
       "caption": "Ambloplites rupestris"
     },
@@ -176,7 +171,7 @@
       "caption": "Centrarchidae"
     },
     {
-      "id": "Amblyopsis rosae",
+      "id": "Amblyopsis_rosae",
       "type": "species",
       "caption": "Amblyopsis rosae"
     },
@@ -191,7 +186,7 @@
       "caption": "Percopsiformes"
     },
     {
-      "id": "Aetobatus narinari",
+      "id": "Aetobatus_narinari",
       "type": "species",
       "caption": "Aetobatus narinari"
     },
@@ -211,7 +206,7 @@
       "caption": "Rajiformes"
     },
     {
-      "id": "Alopias vulpinus",
+      "id": "Alopias_vulpinus",
       "type": "species",
       "caption": "Alopias vulpinus"
     },
@@ -226,7 +221,7 @@
       "caption": "Lamniformes"
     },
     {
-      "id": "Carcharhinus albimarginatus",
+      "id": "Carcharhinus_albimarginatus",
       "type": "species",
       "caption": "Carcharhinus albimarginatus"
     },
@@ -241,32 +236,32 @@
       "caption": "Carcharhiniformes"
     },
     {
-      "id": "Carcharhinus amblyrhynchos",
+      "id": "Carcharhinus_amblyrhynchos",
       "type": "species",
       "caption": "Carcharhinus amblyrhynchos"
     },
     {
-      "id": "Carcharhinus falciformis",
+      "id": "Carcharhinus_falciformis",
       "type": "species",
       "caption": "Carcharhinus falciformis"
     },
     {
-      "id": "Carcharhinus leucas",
+      "id": "Carcharhinus_leucas",
       "type": "species",
       "caption": "Carcharhinus leucas"
     },
     {
-      "id": "Carcharhinus limbatus",
+      "id": "Carcharhinus_limbatus",
       "type": "species",
       "caption": "Carcharhinus limbatus"
     },
     {
-      "id": "Carcharhinus plumbeus",
+      "id": "Carcharhinus_plumbeus",
       "type": "species",
       "caption": "Carcharhinus plumbeus"
     },
     {
-      "id": "Carcharias taurus",
+      "id": "Carcharias_taurus",
       "type": "species",
       "caption": "Carcharias taurus"
     },
@@ -276,7 +271,7 @@
       "caption": "Odontaspididae"
     },
     {
-      "id": "Carcharodon carcharias",
+      "id": "Carcharodon_carcharias",
       "type": "species",
       "caption": "Carcharodon carcharias"
     },
@@ -286,7 +281,7 @@
       "caption": "Lamnidae"
     },
     {
-      "id": "Acanthorhynchus tenuirostris",
+      "id": "Acanthorhynchus_tenuirostris",
       "type": "species",
       "caption": "Acanthorhynchus tenuirostris"
     },
@@ -306,7 +301,7 @@
       "caption": "Passeriformes"
     },
     {
-      "id": "Accipiter cooperii",
+      "id": "Accipiter_cooperii",
       "type": "species",
       "caption": "Accipiter cooperii"
     },
@@ -321,22 +316,22 @@
       "caption": "Falconiformes"
     },
     {
-      "id": "Accipiter gentilis",
+      "id": "Accipiter_gentilis",
       "type": "species",
       "caption": "Accipiter gentilis"
     },
     {
-      "id": "Accipiter nisus",
+      "id": "Accipiter_nisus",
       "type": "species",
       "caption": "Accipiter nisus"
     },
     {
-      "id": "Accipiter striatus",
+      "id": "Accipiter_striatus",
       "type": "species",
       "caption": "Accipiter striatus"
     },
     {
-      "id": "Acridotheres tristis",
+      "id": "Acridotheres_tristis",
       "type": "species",
       "caption": "Acridotheres tristis"
     },
@@ -346,7 +341,7 @@
       "caption": "Sturnidae"
     },
     {
-      "id": "Acrocephalus arundinaceus",
+      "id": "Acrocephalus_arundinaceus",
       "type": "species",
       "caption": "Acrocephalus arundinaceus"
     },
@@ -356,7 +351,7 @@
       "caption": "Sylviidae"
     },
     {
-      "id": "Actitis hypoleucos",
+      "id": "Actitis_hypoleucos",
       "type": "species",
       "caption": "Actitis hypoleucos"
     },
@@ -371,12 +366,12 @@
       "caption": "Charadriiformes"
     },
     {
-      "id": "Actitis macularius",
+      "id": "Actitis_macularius",
       "type": "species",
       "caption": "Actitis macularius"
     },
     {
-      "id": "Aechmophorus occidentalis",
+      "id": "Aechmophorus_occidentalis",
       "type": "species",
       "caption": "Aechmophorus occidentalis"
     },
@@ -391,7 +386,7 @@
       "caption": "Podicipediformes"
     },
     {
-      "id": "Acris crepitans",
+      "id": "Acris_crepitans",
       "type": "species",
       "caption": "Acris crepitans"
     },
@@ -406,17 +401,17 @@
       "caption": "Hylidae"
     },
     {
-      "id": "Acris gryllus",
+      "id": "Acris_gryllus",
       "type": "species",
       "caption": "Acris gryllus"
     },
     {
-      "id": "Agalychnis callidryas",
+      "id": "Agalychnis_callidryas",
       "type": "species",
       "caption": "Agalychnis callidryas"
     },
     {
-      "id": "Ambystoma annulatum",
+      "id": "Ambystoma_annulatum",
       "type": "species",
       "caption": "Ambystoma annulatum"
     },
@@ -426,37 +421,37 @@
       "caption": "Ambystomatidae"
     },
     {
-      "id": "Ambystoma californiense",
+      "id": "Ambystoma_californiense",
       "type": "species",
       "caption": "Ambystoma californiense"
     },
     {
-      "id": "Ambystoma cingulatum",
+      "id": "Ambystoma_cingulatum",
       "type": "species",
       "caption": "Ambystoma cingulatum"
     },
     {
-      "id": "Ambystoma gracile",
+      "id": "Ambystoma_gracile",
       "type": "species",
       "caption": "Ambystoma gracile"
     },
     {
-      "id": "Ambystoma jeffersonianum",
+      "id": "Ambystoma_jeffersonianum",
       "type": "species",
       "caption": "Ambystoma jeffersonianum"
     },
     {
-      "id": "Ambystoma laterale",
+      "id": "Ambystoma_laterale",
       "type": "species",
       "caption": "Ambystoma laterale"
     },
     {
-      "id": "Ambystoma maculatum",
+      "id": "Ambystoma_maculatum",
       "type": "species",
       "caption": "Ambystoma maculatum"
     },
     {
-      "id": "Acrochordus arafurae",
+      "id": "Acrochordus_arafurae",
       "type": "species",
       "caption": "Acrochordus arafurae"
     },
@@ -476,17 +471,17 @@
       "caption": "Squamata"
     },
     {
-      "id": "Acrochordus granulatus",
+      "id": "Acrochordus_granulatus",
       "type": "species",
       "caption": "Acrochordus granulatus"
     },
     {
-      "id": "Acrochordus javanicus",
+      "id": "Acrochordus_javanicus",
       "type": "species",
       "caption": "Acrochordus javanicus"
     },
     {
-      "id": "Agama agama",
+      "id": "Agama_agama",
       "type": "species",
       "caption": "Agama agama"
     },
@@ -496,7 +491,7 @@
       "caption": "Agamidae"
     },
     {
-      "id": "Agkistrodon contortrix",
+      "id": "Agkistrodon_contortrix",
       "type": "species",
       "caption": "Agkistrodon contortrix"
     },
@@ -506,12 +501,12 @@
       "caption": "Viperidae"
     },
     {
-      "id": "Agkistrodon piscivorus",
+      "id": "Agkistrodon_piscivorus",
       "type": "species",
       "caption": "Agkistrodon piscivorus"
     },
     {
-      "id": "Alligator mississippiensis",
+      "id": "Alligator_mississippiensis",
       "type": "species",
       "caption": "Alligator mississippiensis"
     },
@@ -526,12 +521,12 @@
       "caption": "Crocodylia"
     },
     {
-      "id": "Alligator sinensis",
+      "id": "Alligator_sinensis",
       "type": "species",
       "caption": "Alligator sinensis"
     },
     {
-      "id": "Amblyrhynchus cristatus",
+      "id": "Amblyrhynchus_cristatus",
       "type": "species",
       "caption": "Amblyrhynchus cristatus"
     },
@@ -541,7 +536,7 @@
       "caption": "Iguanidae"
     },
     {
-      "id": "Ameiva ameiva",
+      "id": "Ameiva_ameiva",
       "type": "species",
       "caption": "Ameiva ameiva"
     },
@@ -553,7 +548,7 @@
   ],
   "edges": [
     {
-      "source": "Abditomys latidens",
+      "source": "Abditomys_latidens",
       "target": "Mammalia"
     },
     {
@@ -565,7 +560,7 @@
       "target": "Rodentia"
     },
     {
-      "source": "Abeomelomys sevia",
+      "source": "Abeomelomys_sevia",
       "target": "Mammalia"
     },
     {
@@ -577,7 +572,7 @@
       "target": "Rodentia"
     },
     {
-      "source": "Abrawayaomys ruschii",
+      "source": "Abrawayaomys_ruschii",
       "target": "Mammalia"
     },
     {
@@ -589,7 +584,7 @@
       "target": "Rodentia"
     },
     {
-      "source": "Abrocoma bennettii",
+      "source": "Abrocoma_bennettii",
       "target": "Mammalia"
     },
     {
@@ -601,7 +596,7 @@
       "target": "Rodentia"
     },
     {
-      "source": "Abrocoma boliviensis",
+      "source": "Abrocoma_boliviensis",
       "target": "Mammalia"
     },
     {
@@ -613,7 +608,7 @@
       "target": "Rodentia"
     },
     {
-      "source": "Abrocoma cinerea",
+      "source": "Abrocoma_cinerea",
       "target": "Mammalia"
     },
     {
@@ -625,7 +620,7 @@
       "target": "Rodentia"
     },
     {
-      "source": "Abrothrix andinus",
+      "source": "Abrothrix_andinus",
       "target": "Mammalia"
     },
     {
@@ -637,7 +632,7 @@
       "target": "Rodentia"
     },
     {
-      "source": "Abrothrix illuteus",
+      "source": "Abrothrix_illuteus",
       "target": "Mammalia"
     },
     {
@@ -649,7 +644,7 @@
       "target": "Rodentia"
     },
     {
-      "source": "Abrothrix jelskii",
+      "source": "Abrothrix_jelskii",
       "target": "Mammalia"
     },
     {
@@ -661,7 +656,7 @@
       "target": "Rodentia"
     },
     {
-      "source": "Abrothrix lanosus",
+      "source": "Abrothrix_lanosus",
       "target": "Mammalia"
     },
     {
@@ -673,7 +668,7 @@
       "target": "Rodentia"
     },
     {
-      "source": "Acanthurus coeruleus",
+      "source": "Acanthurus_coeruleus",
       "target": "Actinopterygii"
     },
     {
@@ -685,7 +680,7 @@
       "target": "Perciformes"
     },
     {
-      "source": "Acanthurus triostegus",
+      "source": "Acanthurus_triostegus",
       "target": "Actinopterygii"
     },
     {
@@ -697,7 +692,7 @@
       "target": "Perciformes"
     },
     {
-      "source": "Acipenser fulvescens",
+      "source": "Acipenser_fulvescens",
       "target": "Actinopterygii"
     },
     {
@@ -709,7 +704,7 @@
       "target": "Acipenseriformes"
     },
     {
-      "source": "Acipenser transmontanus",
+      "source": "Acipenser_transmontanus",
       "target": "Actinopterygii"
     },
     {
@@ -721,7 +716,7 @@
       "target": "Acipenseriformes"
     },
     {
-      "source": "Albula vulpes",
+      "source": "Albula_vulpes",
       "target": "Actinopterygii"
     },
     {
@@ -733,7 +728,7 @@
       "target": "Albuliformes"
     },
     {
-      "source": "Alosa aestivalis",
+      "source": "Alosa_aestivalis",
       "target": "Actinopterygii"
     },
     {
@@ -745,7 +740,7 @@
       "target": "Clupeiformes"
     },
     {
-      "source": "Alosa pseudoharengus",
+      "source": "Alosa_pseudoharengus",
       "target": "Actinopterygii"
     },
     {
@@ -757,7 +752,7 @@
       "target": "Clupeiformes"
     },
     {
-      "source": "Alosa sapidissima",
+      "source": "Alosa_sapidissima",
       "target": "Actinopterygii"
     },
     {
@@ -769,7 +764,7 @@
       "target": "Clupeiformes"
     },
     {
-      "source": "Ambloplites rupestris",
+      "source": "Ambloplites_rupestris",
       "target": "Actinopterygii"
     },
     {
@@ -781,7 +776,7 @@
       "target": "Perciformes"
     },
     {
-      "source": "Amblyopsis rosae",
+      "source": "Amblyopsis_rosae",
       "target": "Actinopterygii"
     },
     {
@@ -793,7 +788,7 @@
       "target": "Percopsiformes"
     },
     {
-      "source": "Aetobatus narinari",
+      "source": "Aetobatus_narinari",
       "target": "Chondrichthyes"
     },
     {
@@ -805,7 +800,7 @@
       "target": "Rajiformes"
     },
     {
-      "source": "Alopias vulpinus",
+      "source": "Alopias_vulpinus",
       "target": "Chondrichthyes"
     },
     {
@@ -817,7 +812,7 @@
       "target": "Lamniformes"
     },
     {
-      "source": "Carcharhinus albimarginatus",
+      "source": "Carcharhinus_albimarginatus",
       "target": "Chondrichthyes"
     },
     {
@@ -829,7 +824,7 @@
       "target": "Carcharhiniformes"
     },
     {
-      "source": "Carcharhinus amblyrhynchos",
+      "source": "Carcharhinus_amblyrhynchos",
       "target": "Chondrichthyes"
     },
     {
@@ -841,7 +836,7 @@
       "target": "Carcharhiniformes"
     },
     {
-      "source": "Carcharhinus falciformis",
+      "source": "Carcharhinus_falciformis",
       "target": "Chondrichthyes"
     },
     {
@@ -853,7 +848,7 @@
       "target": "Carcharhiniformes"
     },
     {
-      "source": "Carcharhinus leucas",
+      "source": "Carcharhinus_leucas",
       "target": "Chondrichthyes"
     },
     {
@@ -865,7 +860,7 @@
       "target": "Carcharhiniformes"
     },
     {
-      "source": "Carcharhinus limbatus",
+      "source": "Carcharhinus_limbatus",
       "target": "Chondrichthyes"
     },
     {
@@ -877,7 +872,7 @@
       "target": "Carcharhiniformes"
     },
     {
-      "source": "Carcharhinus plumbeus",
+      "source": "Carcharhinus_plumbeus",
       "target": "Chondrichthyes"
     },
     {
@@ -889,7 +884,7 @@
       "target": "Carcharhiniformes"
     },
     {
-      "source": "Carcharias taurus",
+      "source": "Carcharias_taurus",
       "target": "Chondrichthyes"
     },
     {
@@ -901,7 +896,7 @@
       "target": "Lamniformes"
     },
     {
-      "source": "Carcharodon carcharias",
+      "source": "Carcharodon_carcharias",
       "target": "Chondrichthyes"
     },
     {
@@ -913,7 +908,7 @@
       "target": "Lamniformes"
     },
     {
-      "source": "Acanthorhynchus tenuirostris",
+      "source": "Acanthorhynchus_tenuirostris",
       "target": "Aves"
     },
     {
@@ -925,7 +920,7 @@
       "target": "Passeriformes"
     },
     {
-      "source": "Accipiter cooperii",
+      "source": "Accipiter_cooperii",
       "target": "Aves"
     },
     {
@@ -937,7 +932,7 @@
       "target": "Falconiformes"
     },
     {
-      "source": "Accipiter gentilis",
+      "source": "Accipiter_gentilis",
       "target": "Aves"
     },
     {
@@ -949,7 +944,7 @@
       "target": "Falconiformes"
     },
     {
-      "source": "Accipiter nisus",
+      "source": "Accipiter_nisus",
       "target": "Aves"
     },
     {
@@ -961,7 +956,7 @@
       "target": "Falconiformes"
     },
     {
-      "source": "Accipiter striatus",
+      "source": "Accipiter_striatus",
       "target": "Aves"
     },
     {
@@ -973,7 +968,7 @@
       "target": "Falconiformes"
     },
     {
-      "source": "Acridotheres tristis",
+      "source": "Acridotheres_tristis",
       "target": "Aves"
     },
     {
@@ -985,7 +980,7 @@
       "target": "Passeriformes"
     },
     {
-      "source": "Acrocephalus arundinaceus",
+      "source": "Acrocephalus_arundinaceus",
       "target": "Aves"
     },
     {
@@ -997,7 +992,7 @@
       "target": "Passeriformes"
     },
     {
-      "source": "Actitis hypoleucos",
+      "source": "Actitis_hypoleucos",
       "target": "Aves"
     },
     {
@@ -1009,7 +1004,7 @@
       "target": "Charadriiformes"
     },
     {
-      "source": "Actitis macularius",
+      "source": "Actitis_macularius",
       "target": "Aves"
     },
     {
@@ -1021,7 +1016,7 @@
       "target": "Charadriiformes"
     },
     {
-      "source": "Aechmophorus occidentalis",
+      "source": "Aechmophorus_occidentalis",
       "target": "Aves"
     },
     {
@@ -1033,7 +1028,7 @@
       "target": "Podicipediformes"
     },
     {
-      "source": "Acris crepitans",
+      "source": "Acris_crepitans",
       "target": "Amphibia"
     },
     {
@@ -1041,7 +1036,7 @@
       "target": "Hylidae"
     },
     {
-      "source": "Acris gryllus",
+      "source": "Acris_gryllus",
       "target": "Amphibia"
     },
     {
@@ -1049,7 +1044,7 @@
       "target": "Hylidae"
     },
     {
-      "source": "Agalychnis callidryas",
+      "source": "Agalychnis_callidryas",
       "target": "Amphibia"
     },
     {
@@ -1057,7 +1052,7 @@
       "target": "Hylidae"
     },
     {
-      "source": "Ambystoma annulatum",
+      "source": "Ambystoma_annulatum",
       "target": "Amphibia"
     },
     {
@@ -1065,7 +1060,7 @@
       "target": "Ambystomatidae"
     },
     {
-      "source": "Ambystoma californiense",
+      "source": "Ambystoma_californiense",
       "target": "Amphibia"
     },
     {
@@ -1073,7 +1068,7 @@
       "target": "Ambystomatidae"
     },
     {
-      "source": "Ambystoma cingulatum",
+      "source": "Ambystoma_cingulatum",
       "target": "Amphibia"
     },
     {
@@ -1081,7 +1076,7 @@
       "target": "Ambystomatidae"
     },
     {
-      "source": "Ambystoma gracile",
+      "source": "Ambystoma_gracile",
       "target": "Amphibia"
     },
     {
@@ -1089,7 +1084,7 @@
       "target": "Ambystomatidae"
     },
     {
-      "source": "Ambystoma jeffersonianum",
+      "source": "Ambystoma_jeffersonianum",
       "target": "Amphibia"
     },
     {
@@ -1097,7 +1092,7 @@
       "target": "Ambystomatidae"
     },
     {
-      "source": "Ambystoma laterale",
+      "source": "Ambystoma_laterale",
       "target": "Amphibia"
     },
     {
@@ -1105,7 +1100,7 @@
       "target": "Ambystomatidae"
     },
     {
-      "source": "Ambystoma maculatum",
+      "source": "Ambystoma_maculatum",
       "target": "Amphibia"
     },
     {
@@ -1113,7 +1108,7 @@
       "target": "Ambystomatidae"
     },
     {
-      "source": "Acrochordus arafurae",
+      "source": "Acrochordus_arafurae",
       "target": "Reptilia"
     },
     {
@@ -1125,7 +1120,7 @@
       "target": "Squamata"
     },
     {
-      "source": "Acrochordus granulatus",
+      "source": "Acrochordus_granulatus",
       "target": "Reptilia"
     },
     {
@@ -1137,7 +1132,7 @@
       "target": "Squamata"
     },
     {
-      "source": "Acrochordus javanicus",
+      "source": "Acrochordus_javanicus",
       "target": "Reptilia"
     },
     {
@@ -1149,7 +1144,7 @@
       "target": "Squamata"
     },
     {
-      "source": "Agama agama",
+      "source": "Agama_agama",
       "target": "Reptilia"
     },
     {
@@ -1161,7 +1156,7 @@
       "target": "Squamata"
     },
     {
-      "source": "Agkistrodon contortrix",
+      "source": "Agkistrodon_contortrix",
       "target": "Reptilia"
     },
     {
@@ -1173,7 +1168,7 @@
       "target": "Squamata"
     },
     {
-      "source": "Agkistrodon piscivorus",
+      "source": "Agkistrodon_piscivorus",
       "target": "Reptilia"
     },
     {
@@ -1185,7 +1180,7 @@
       "target": "Squamata"
     },
     {
-      "source": "Alligator mississippiensis",
+      "source": "Alligator_mississippiensis",
       "target": "Reptilia"
     },
     {
@@ -1197,7 +1192,7 @@
       "target": "Crocodylia"
     },
     {
-      "source": "Alligator sinensis",
+      "source": "Alligator_sinensis",
       "target": "Reptilia"
     },
     {
@@ -1209,7 +1204,7 @@
       "target": "Crocodylia"
     },
     {
-      "source": "Amblyrhynchus cristatus",
+      "source": "Amblyrhynchus_cristatus",
       "target": "Reptilia"
     },
     {
@@ -1221,7 +1216,7 @@
       "target": "Squamata"
     },
     {
-      "source": "Ameiva ameiva",
+      "source": "Ameiva_ameiva",
       "target": "Reptilia"
     },
     {
